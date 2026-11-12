@@ -1,0 +1,59 @@
+﻿categoria,procesos,p25,mediana,p75,p90,pct_sobre_estimado,pct_sobre_10,pct_bajo_10,monto_estimado_pyg,monto_adjudicado_pyg,desvio_agregado_pct
+Servicios - Equipos Militares y de Seguridad. Servicio de Seguridad y Vigilancia,39,-8.197920179012812,-0.19535646499835257,2.512476483290671,14.499704767776239,35.9,17.95,23.08,185298448795.0,263042399996.0,41.96
+"Bienes - Equipos, Productos e instrumentales Médicos y de Laboratorio. Servicios asistenciales de salud",229,-24.751267389041555,-0.2959597132441409,0.0,12.507360497746264,22.27,12.23,34.06,9687036859741.0,8754875762897.0,-9.62
+Bienes - Sistemas Equipos y Componentes de Distribucion y Acondicionamiento,109,-14.48354061065721,-1.066395844155844,0.0,12.385240834114319,21.1,11.93,36.7,93419057673.0,78032671711.0,-16.47
+Bienes - Equipos y Suministros de Imprenta Fotograficos y Audiovisuales,46,-26.768213381426122,-6.898267016614767,-0.4445344817417493,8.019690887871649,19.57,10.87,41.3,6186068732.0,5482673558.0,-11.37
+"Bienes - Muebles Accesorios, Electrodomesticos y Productos Electronicos de Consumo",90,-16.61486666321682,-4.851246104008692,-0.003773392170911444,9.13835912470797,15.56,10.0,34.44,57188620164.0,53961245698.0,-5.64
+Servicios - Servicios de Defensa Nacional Orden Publico y Seguridad,62,-1.0628267132548184,0.0,0.0,8.187445038164366,20.97,9.68,11.29,124435759561.0,123478615252.0,-0.77
+"Bienes - Maquinaria Accesorios y Suministros para Manejo, Acondicionamiento y Almacenamiento de Materiales",42,-5.788770868982196,0.0,0.0,9.100794551984446,23.81,9.52,23.81,36210252261.0,36096583836.0,-0.31
+"Servicios - Equipos, Productos e instrumentales Médicos y de Laboratorio. Servicios asistenciales de salud",55,-2.7255711006121905,0.0,0.0,5.997516908083586,14.55,9.09,12.73,2117701936618.0,2127687174139.0,0.47
+Bienes - Equipos Accesorios y Suministros Medicos,150,-20.216098053970864,-1.8248264223079897,0.0,8.35392170294111,16.0,8.0,34.0,824723924444.0,814821177441.0,-1.2
+"Bienes - Ropas, Maletas y Productos de Aseo Personal",38,-19.445730333438966,-3.519398683313105,0.0,9.452512154313736,18.42,7.89,34.21,16382150433.0,15227058942.0,-7.05
+"Servicios - Tecnologias de Informacion, Telecomunicaciones y Radiodifusiones",69,-11.671165757439299,-0.003353778807387872,0.0,7.643484700645072,21.74,7.25,30.43,89691361491.0,88607341991.0,-1.21
+"Bienes - Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicación y señalamiento",63,-19.084709453774458,-5.4003301209557835,0.0,5.605179780161998,17.46,6.35,36.51,527525442232.0,515961453442.0,-2.19
+"Consultoria - Consultorías, Asesorías e Investigaciones. Estudios y Proyectos de inversión",84,-14.797620623110243,-0.008108180722891566,0.0,3.6783748562129746,11.9,5.95,33.33,597537836880.0,539145399605.0,-9.77
+"Bienes - Tecnologias de Informacion, Telecomunicaciones y Radiodifusiones",366,-12.604229758978128,-1.0672975316837634,0.0,4.505083026109635,17.21,5.74,30.87,499374401126.0,464498717981.0,-6.98
+"Bienes - Equipo de Laboratorio Medida, Observacion y Comprobacion",129,-25.000643205944254,-10.142091599891641,-0.010614525139664804,3.5686280931010987,12.4,5.43,50.39,1336257489509.0,1275943487357.0,-4.51
+Servicios - Servicios Sanitarios,39,0.0,0.0,0.0,0.0,7.69,5.13,5.13,1951712944314.0,1938859163534.0,-0.66
+"Bienes - Materiales e insumos eléctricos, metálicos y no metálicos, Plásticos, cauchos. Repuestos, herramientas, cámaras y cubiertas.",40,-17.307772774920593,0.0,0.0,0.48388802249221713,10.0,5.0,35.0,133342301412.0,98698764642.0,-25.98
+Bienes - Suministros componentes y accesorios electricos y de iluminacion,85,-24.56695846526355,-7.244528592456696,0.0,0.0,9.41,4.71,47.06,145820405305.0,136832993586.0,-6.16
+"Obras - Construcción, Restauración, Reconstrucción o Remodelación y Reparación de Inmuebles",149,-20.813928954451544,-13.749125163336648,-1.5857757329002962,0.0,8.72,4.7,57.72,15630262025700.0,13606499031443.0,-12.95
+"Bienes - Componentes y Suministros de Fabricacion Estructuras, Obras y Construcciones",107,-4.592831687946544,-1.8266300118530546e-05,0.0,0.37813353521838683,12.15,4.67,22.43,90931013421.0,84696076309.0,-6.86
+Bienes - Material Accesorios y Suministros de Plantas y Animales Vivos,44,-13.85401602578524,0.0,0.0,0.0,9.09,4.55,29.55,188075250620.0,171132392230.0,-9.01
+"Servicios - Servicios de Limpiezas, Mantenimientos y reparaciones menores y mayores de Instalaciones, Maquinarias y Vehículos",397,0.0,0.0,0.0,0.0,7.05,4.28,13.6,1451620741514.0,1417364598690.0,-2.36
+Bienes - Muebles y mobiliario,123,-17.899797903437744,-1.6441249146274417,0.0,1.2580311317067316,13.01,4.07,36.59,32528978262.0,28196517572.0,-13.32
+Consultoria - Servicios basados en ingenieria investigacion y tecnologia,74,-0.14285714285714285,0.0,0.0,0.0,8.11,4.05,13.51,155798103397.0,151424129187.0,-2.81
+Servicios - Servicios Técnicos,174,-4.329958894731015,0.0,0.0,0.08771162980447221,10.34,4.02,20.69,760798759249.0,768979423202.0,1.08
+"Bienes - Vehiculos Comerciales, Militares y Particulares - Accesorios y Componentes",300,-4.83799745655147,-0.20341766920767845,0.0,3.020895704399661,14.67,4.0,13.67,280591654617.0,258345419548.0,-7.93
+Servicios - Servicios Financieros y de Seguros,230,-17.980535631287275,-0.014143375574519772,0.0,0.0,9.13,3.91,32.61,1086592032351.0,1089696517897.0,0.29
+Servicios - Servicios basados en ingenieria investigacion y tecnologia,339,-2.959061286734226,0.0,0.0,0.0,9.44,3.83,18.29,451639286445.0,420377430119.0,-6.92
+Bienes - Alimentos Bebidas y Tabaco,110,-9.9052320165972,-0.00028919578781542543,0.0,0.00014137732284804692,10.91,3.64,24.55,508433739793.0,456726197414.0,-10.17
+Bienes - Materiales de Minerales y Tejidos y de Plantas y Animales no Comestibles,67,-1.4545361968816026,-0.016430936234746656,0.0,0.0,8.96,2.99,13.43,91050589613.0,90353441191.0,-0.77
+Bienes - Materiales y Productos de Papel,68,-14.328830612244898,-2.7541552900851816,0.0,0.0,7.35,2.94,33.82,9966375591.0,9139013042.0,-8.3
+Servicios - Servicios de Gestion Profesionales de Empresa y Administrativos,207,0.0,0.0,0.0,0.0,3.38,2.9,11.59,318862045747.0,311116371111.0,-2.43
+Servicios - Servicios de Limpieza Industrial,143,-12.226227616825005,0.0,0.0,0.0,4.9,2.8,26.57,612400669305.0,598552300664.0,-2.26
+Bienes - Equipos Accesorios y Suministros de Oficina,259,-15.810305188391684,-1.4304111503967105,0.0,1.8883766398189805,12.74,2.7,32.82,218374895647.0,176522284561.0,-19.17
+"Bienes - Equipos y Suministros de Defensa Orden Publico, Proteccion y Seguridad",118,-20.90723507275844,-0.9679475894620682,0.0,3.5940275533051507,16.95,2.54,38.14,92510653705.0,89215269350.0,-3.56
+Servicios - Servicios de Transporte Almacenaje y Correo,201,0.0,0.0,0.0,0.0,4.48,2.49,7.46,215074892410.0,190950084864.0,-11.22
+Bienes - Maquinaria y Accesorios para Generacion y Distribucion de Energia,86,-17.93180624844537,-3.8780288518022816,0.0,0.08420034522307179,11.63,2.33,37.21,70054663951.0,64189486522.0,-8.37
+Bienes - Medicamentos y Productos Farmaceuticos,88,-12.352637734781144,-1.4415242366544445,0.0,0.1420681477552847,11.36,2.27,34.09,3700983226546.0,3386285664354.0,-8.5
+Bienes - Herramientas y Maquinaria en General,45,-9.109228716341455,-2.288853284504463,0.0,0.0,4.44,2.22,17.78,27080700052.0,26430325478.0,-2.4
+"Servicios - Servicios de ceremonial, gastronomico y funerarios",46,0.0,0.0,0.0,0.0,6.52,2.17,4.35,196875158783.0,196548013242.0,-0.17
+Bienes - Equipos suministros y accesorios deportivos y recreativos,47,-8.051822790874196,-1.8957345971563981,0.0,0.44700350186538274,10.64,2.13,21.28,22765434956.0,19957305063.0,-12.34
+"Servicios - Servicios Editoriales de Diseño, Graficos y de Bellas Artes",143,-1.1530096896381246,0.0,0.0,0.0,4.9,2.1,17.48,72244430789.0,71100975305.0,-1.58
+"Obras - Servicios Editoriales de Diseño, Graficos y de Bellas Artes",54,-0.9323369324456039,0.0,0.0,0.17079575792968935,12.96,1.85,14.81,60389456057.0,60190864440.0,-0.33
+"Servicios - Equipos y Suministros de Defensa Orden Publico, Proteccion y Seguridad",56,-39.98982604559146,0.0,0.0,0.0,3.57,1.79,35.71,7579258902.0,7406066285.0,-2.29
+Obras - Servicios de Construccion y Mantenimiento,1942,-4.9999993652093035,-0.105136,0.0,2.5769233361548602,14.62,1.6,17.4,5879308128453.0,6220585968935.0,5.8
+"Servicios - Servicios de Produccion, Fabricacion Industrial y Mantenimientos de maquinarias",196,-0.4193165208384068,0.0,0.0,0.0,5.1,1.53,12.24,232514966358.0,205188644315.0,-11.75
+"Servicios - Servicios de Viajes, Alimentacion, Alojamiento y Entretenimiento",131,0.0,0.0,0.0,0.0,3.82,1.53,9.16,171398837818.0,146269806089.0,-14.66
+"Bienes - Servicios Editoriales de Diseño, Graficos y de Bellas Artes",68,-19.508486397383045,0.0,0.0,0.0,4.41,1.47,32.35,70053062616.0,65939805269.0,-5.87
+Consultoria - Servicios de Gestion Profesionales de Empresa y Administrativos,209,-7.066657226055168,0.0,0.0,0.0,4.78,1.44,21.05,149803706954.0,144227833897.0,-3.72
+"Bienes - Combustibles Aditivos para combustibles, Lubricantes y Materiales Anticorrosivos",157,-2.4585783003741315,0.0,0.0,0.004239789428610429,11.46,1.27,8.28,208471497275.0,166889376340.0,-19.95
+Servicios - Servicios de Construccion y Mantenimiento,462,0.0,0.0,0.0,0.0,3.46,0.65,17.53,390068173748.0,369042934097.0,-5.39
+Locación Inmuebles - Adquisición y Locación de inmuebles. Alquiler de muebles,198,0.0,0.0,0.0,0.0,1.01,0.51,4.04,119114652849.0,116043039243.0,-2.58
+Bienes - Componentes y Suministros de Fabricacion,50,-17.948713802734087,-0.38940826176480836,0.0,0.0,8.0,0.0,42.0,25224364047.0,22838833232.0,-9.46
+Bienes - Equipos y Suministros de limpieza,47,-10.381167211708064,-0.8464660499469816,0.0,0.0,8.51,0.0,25.53,20377850415.0,18280202901.0,-10.29
+Bienes - Productos Alimenticios,43,-13.166503218985195,-0.9481325661391449,0.0,0.0,9.3,0.0,30.23,181732653422.0,166551283674.0,-8.35
+Bienes - Productos Publicados,86,-19.43120201530198,-0.6173862456048964,0.0,0.0,2.33,0.0,38.37,64135299843.0,54771484999.0,-14.6
+Bienes - Productos quimicos incluyendo los bio-quimicos y gases industriales,62,-12.668509553296367,-1.412352121656015,0.0,0.0,4.84,0.0,29.03,869046589566.0,839706437079.0,-3.38
+Servicios - Servicios Publicos y Servicios Relacionados con el Sector Publico,52,0.0,0.0,0.0,0.0,1.92,0.0,7.69,18856735084.0,18565473168.0,-1.54

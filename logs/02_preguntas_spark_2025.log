@@ -1,0 +1,44 @@
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+P1: procesos, adjudicaciones y contratos por año y modalidad
+  -> resultados\2025\spark\p1_anio_modalidad.csv (139 filas)
+  -> resultados\2025\spark\p1_anio.csv (16 filas)
+   5 s
+P2: llamados con una sola oferta
+  -> resultados\2025\spark\p2_unica_oferta_modalidad.csv (32 filas)
+  -> resultados\2025\spark\p2_unica_oferta_tipo_entidad.csv (15 filas)
+  -> resultados\2025\spark\p2_unica_oferta_anio.csv (13 filas)
+   1 s
+P3: desvío entre monto estimado y adjudicado
+  -> resultados\2025\spark\p3_desvio_resumen.csv (1 filas)
+  -> resultados\2025\spark\p3_desvio_categoria.csv (58 filas)
+  -> resultados\2025\spark\p3_desvio_modalidad.csv (9 filas)
+   2 s
+P4: contratos por proveedor (RUC)
+  -> resultados\2025\spark\p4_top_proveedores.csv (50 filas)
+  -> resultados\2025\spark\p4_rucs_muestra.csv (15 filas)
+  -> resultados\2025\spark\p4_consulta_ruc.csv (15 filas)
+  -> resultados\2025\spark\p4_ejemplo_contratos_ruc.csv (51 filas)
+   4 s
+P5: concentración de proveedores (top 10 y HHI)
+  -> resultados\2025\spark\p5_concentracion_entidad.csv (331 filas)
+  -> resultados\2025\spark\p5_concentracion_categoria.csv (153 filas)
+  -> resultados\2025\spark\p5_entidades_por_nivel_hhi.csv (3 filas)
+  -> resultados\2025\spark\p5_hhi_tipo_entidad.csv (14 filas)
+  -> resultados\2025\spark\p5_top10_proveedores_estado.csv (10 filas)
+   4 s
+P6: duración de la convocatoria y cantidad de oferentes
+  -> resultados\2025\spark\p6_calidad_fechas.csv (1 filas)
+  -> resultados\2025\spark\p6_dias_modalidad.csv (9 filas)
+  -> resultados\2025\spark\p6_tramos_dias_oferentes.csv (6 filas)
+  -> resultados\2025\spark\p6_spearman.csv (7 filas)
+   7 s
+P7: gasto en combustible, medicamentos y alimentos
+  -> resultados\2025\spark\p7_texto_resumen.csv (3 filas)
+  -> resultados\2025\spark\p7_texto_top_entidades.csv (27 filas)
+  -> resultados\2025\spark\p7_catalogo_resumen.csv (3 filas)
+  -> resultados\2025\spark\p7_catalogo_top_entidades.csv (30 filas)
+  -> resultados\2025\spark\p7_texto_vs_catalogo.csv (3 filas)
+  -> resultados\2025\spark\p7_texto_combustible_por_catalogo.csv (15 filas)
+   9 s
+Total: 32 s

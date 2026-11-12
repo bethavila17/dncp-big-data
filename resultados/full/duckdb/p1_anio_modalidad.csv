@@ -1,0 +1,417 @@
+﻿anio,modalidad,procesos,adjudicaciones,contratos,monto_adjudicado_pyg
+2010,acuerdo internacional,1,1.0,1.0,1400000000.0
+2010,acuerdo nacional,4,1.0,1.0,4000000000.0
+2010,bid - concurso de ofertas (co/cp),29,36.0,36.0,4626375917.0
+2010,bid - contratación directa (cd/sd),84,102.0,102.0,2392063325.0
+2010,bid - contratación por excepción,18,18.0,18.0,1984684504.0
+2010,bid - licitación internacional,9,12.0,12.0,17321710875.0
+2010,bid - licitación pública nacional,9,27.0,27.0,20519531704.0
+2010,bid - locación de inmuebles,1,2.0,2.0,98026812.0
+2010,bm - concurso de ofertas - co,5,9.0,9.0,1690067630.0
+2010,bm - contratación directa - cd,14,8.0,8.0,254612156.0
+2010,bm - licitación pública internacional - lpi,4,4.0,4.0,91053203432.0
+2010,bm - licitación pública nacional - lpn,3,3.0,3.0,2157884936.0
+2010,bm - selección basada en el menor costo,1,1.0,1.0,36300000.0
+2010,bm - selección basada en la calidad y el costo,1,1.0,1.0,115600000.0
+2010,concurso de ofertas,1622,2347.0,2366.0,311656773370.0
+2010,contratación directa,6495,6969.0,6989.0,179456962194.0
+2010,contratación por excepción,579,717.0,717.0,381338454347.0
+2010,licitación pública internacional,44,54.0,56.0,567853611373.0
+2010,licitación pública nacional,855,2263.0,2269.0,2803593590574.0
+2010,locación de inmuebles,320,820.0,821.0,33277333319.0
+2010,selección basada en el menor costo,4,3.0,3.0,539300000.0
+2010,selección basada en la calidad y el costo,11,6.0,7.0,1606267475.0
+2010,selección basada en las calificaciones de los consultores,1,0.0,0.0,0.0
+2010,selección sobre la base la comparación de las calificaciones,8,2.0,2.0,124635000.0
+2011,(sin dato),1310,0.0,0.0,0.0
+2011,acuerdo internacional,1,1.0,1.0,1456099999200.0
+2011,acuerdo nacional,4,2.0,2.0,2680409530.0
+2011,bid - concurso de ofertas (co/cp),30,32.0,32.0,5793561582.0
+2011,bid - contratación directa (cd/sd),101,125.0,125.0,3450615830.0
+2011,bid - contratación por excepción,32,32.0,32.0,9921764790.0
+2011,bid - licitación internacional,8,14.0,14.0,99633202814.0
+2011,bid - licitación pública nacional,22,29.0,30.0,23008864995.0
+2011,bid - locación de inmuebles,8,11.0,11.0,1167307910.0
+2011,bm - concurso de ofertas - co,11,17.0,17.0,2809100685.0
+2011,bm - contratación directa - cd,16,22.0,22.0,597187342.0
+2011,bm - contratación por excepción - ce,6,3.0,3.0,155000000.0
+2011,bm - licitación pública internacional - lpi,3,8.0,8.0,1926543000.0
+2011,bm - licitación pública nacional - lpn,4,2.0,2.0,833773270.0
+2011,bm - selección basada en el menor costo,3,1.0,1.0,0.0
+2011,bm - selección basada en la calidad y el costo,2,1.0,1.0,0.0
+2011,concurso de ofertas,2656,3636.0,3641.0,570834596669.0
+2011,contrataciones excluidas,1,0.0,0.0,0.0
+2011,contratación directa,9776,11168.0,11174.0,315254113402.0
+2011,contratación por excepción,963,1128.0,1126.0,1193893861456.0
+2011,licitación pública internacional,64,80.0,80.0,382337571018.0
+2011,licitación pública nacional,1360,3791.0,3795.0,5351643196536.0
+2011,locación de inmuebles,307,1252.0,1252.0,72607473776.0
+2011,selección basada en el menor costo,10,9.0,9.0,4877027644.0
+2011,selección basada en la calidad,11,9.0,9.0,995138650.0
+2011,selección basada en la calidad y el costo,15,13.0,13.0,3321140378.0
+2011,selección basada en las calificaciones de los consultores,1,1.0,1.0,242000000.0
+2011,selección cuando el presupuesto es fijo,4,3.0,3.0,82500000.0
+2011,selección sobre la base la comparación de las calificaciones,61,41.0,41.0,3752816000.0
+2012,(sin dato),4608,0.0,0.0,0.0
+2012,acuerdo nacional,1,1.0,1.0,2229317250.0
+2012,bid - concurso de ofertas (co/cp),25,35.0,35.0,5904355113.0
+2012,bid - contratación directa (cd/sd),69,79.0,79.0,2696625873.0
+2012,bid - contratación por excepción,16,14.0,14.0,1352524100.0
+2012,bid - licitación internacional,17,23.0,23.0,190017050989.0
+2012,bid - licitación pública nacional,24,42.0,42.0,52331943582.0
+2012,bid - locación de inmuebles,5,4.0,4.0,525273556.0
+2012,bm - concurso de ofertas - co,14,18.0,18.0,2535329564.0
+2012,bm - contratación directa - cd,12,14.0,14.0,284958575.0
+2012,bm - contratación por excepción - ce,2,5.0,5.0,801306850.0
+2012,bm - licitación pública internacional - lpi,14,22.0,22.0,223456054626.0
+2012,bm - licitación pública nacional - lpn,9,8.0,9.0,6166403235.0
+2012,bm - selección basada en el menor costo,2,1.0,1.0,50776000.0
+2012,bm - selección basada en la calidad y el costo,6,6.0,6.0,2685608786.0
+2012,bm - selección basada en las calificaciones de consultores,1,1.0,1.0,77349558.0
+2012,concurso de ofertas,2761,3753.0,3701.0,671988893474.0
+2012,contratación directa,10196,11337.0,10993.0,387411307667.0
+2012,contratación por excepción,745,863.0,850.0,1196828233971.0
+2012,licitación pública internacional,84,120.0,118.0,4288913571944.0
+2012,licitación pública nacional,1415,3738.0,3727.0,9710237755894.0
+2012,locación de inmuebles,252,535.0,529.0,44394058026.0
+2012,selección basada en el menor costo,2,1.0,1.0,47899500.0
+2012,selección basada en la calidad,6,6.0,6.0,4232080600.0
+2012,selección basada en la calidad y el costo,19,12.0,11.0,7954222370.0
+2012,selección basada en las calificaciones de los consultores,11,6.0,6.0,2652000000.0
+2012,selección cuando el presupuesto es fijo,1,1.0,1.0,55000000.0
+2012,selección sobre la base la comparación de las calificaciones,18,10.0,10.0,719250000.0
+2013,(sin dato),12632,0.0,0.0,0.0
+2013,bid - concurso de ofertas (co/cp),20,18.0,18.0,3873931216.0
+2013,bid - contratación directa (cd/sd),39,46.0,46.0,3646631922.0
+2013,bid - contratación por excepción,2,0.0,0.0,0.0
+2013,bid - licitación internacional,8,11.0,11.0,74033090686.0
+2013,bid - licitación pública nacional,4,2.0,2.0,1322613314.0
+2013,bid - locación de inmuebles,2,3.0,3.0,453360000.0
+2013,bm - concurso de ofertas - co,21,29.0,29.0,3106960748.0
+2013,bm - contratación directa - cd,32,22.0,22.0,649495307.0
+2013,bm - contratación por excepción - ce,1,1.0,1.0,168210000.0
+2013,bm - licitación pública internacional - lpi,3,7.0,7.0,0.0
+2013,bm - licitación pública nacional - lpn,4,10.0,10.0,2594894137.0
+2013,bm - selección basada en el menor costo,2,2.0,2.0,76950000.0
+2013,bm - selección basada en la calidad y el costo,3,3.0,3.0,69850000.0
+2013,bm - selección basada en las calificaciones de consultores,1,1.0,1.0,96800000.0
+2013,concurso de ofertas,2351,2886.0,2835.0,546852565615.0
+2013,contratación directa,7922,7909.0,7642.0,311051832964.0
+2013,contratación por excepción,469,596.0,594.0,611832514926.0
+2013,licitación pública internacional,62,61.0,60.0,2800266099140.0
+2013,licitación pública nacional,1102,2560.0,2518.0,4448691943735.0
+2013,locación de inmuebles,165,346.0,346.0,26369022869.0
+2013,selección basada en el menor costo,1,1.0,1.0,299248950.0
+2013,selección basada en la calidad,3,2.0,2.0,3802939412.0
+2013,selección basada en la calidad y el costo,8,7.0,7.0,1423347500.0
+2013,selección basada en las calificaciones de los consultores,1,1.0,1.0,308593800.0
+2013,selección sobre la base la comparación de las calificaciones,8,5.0,5.0,1909280310.0
+2014,(sin dato),3441,0.0,0.0,0.0
+2014,acuerdo nacional,3,30.0,30.0,21946834900.0
+2014,bid - concurso de ofertas (co/cp),52,59.0,59.0,13750315909.0
+2014,bid - contratación directa (cd/sd),64,58.0,58.0,5834836299.0
+2014,bid - licitación internacional,11,15.0,15.0,382687905880.0
+2014,bid - licitación pública nacional,1,1.0,1.0,1400300000.0
+2014,bm - concurso de ofertas - co,11,16.0,16.0,1865918245.0
+2014,bm - contratación directa - cd,21,14.0,14.0,517299192.0
+2014,bm - contratación por excepción - ce,6,5.0,5.0,861855009.0
+2014,bm - licitación pública internacional - lpi,10,15.0,15.0,56150881103.0
+2014,bm - licitación pública nacional - lpn,2,1.0,1.0,1080000000.0
+2014,bm - selección basada en el menor costo,1,1.0,1.0,198000000.0
+2014,bm - selección basada en la calidad y el costo,2,2.0,2.0,4789651350.0
+2014,concurso de ofertas,2777,3557.0,3501.0,722209585115.0
+2014,contratación directa,8516,8362.0,8211.0,367475869817.0
+2014,contratación por excepción,483,1429.0,1427.0,1010658319409.0
+2014,licitación pública internacional,78,112.0,112.0,4124926200411.0
+2014,licitación pública nacional,1402,3521.0,4029.0,7881406886303.0
+2014,locación de inmuebles,209,427.0,429.0,69424995872.0
+2014,selección basada en el menor costo,4,4.0,4.0,5144241253.0
+2014,selección basada en la calidad,1,1.0,1.0,273252095.0
+2014,selección basada en la calidad y el costo,9,8.0,8.0,12180204534.0
+2014,selección basada en las calificaciones de los consultores,4,4.0,4.0,319210480.0
+2014,selección cuando el presupuesto es fijo,1,1.0,1.0,1170022415.0
+2014,selección sobre la base la comparación de las calificaciones,10,8.0,8.0,1678474000.0
+2015,(sin dato),3374,0.0,0.0,0.0
+2015,acuerdo internacional,1,1.0,1.0,4400000.0
+2015,acuerdo nacional,4,16.0,16.0,132974395456.0
+2015,bid - concurso de ofertas (co/cp),22,25.0,25.0,6135579785.0
+2015,bid - contratación directa (cd/sd),24,21.0,21.0,6113891579.0
+2015,bid - licitación internacional,11,20.0,20.0,641266194425.0
+2015,bid - licitación pública nacional,1,2.0,2.0,447299974.0
+2015,bm - concurso de ofertas - co,12,10.0,10.0,3249135702.0
+2015,bm - contratación directa - cd,25,25.0,25.0,1274631253.0
+2015,bm - contratación por excepción - ce,6,6.0,6.0,1265885000.0
+2015,bm - licitación pública internacional - lpi,8,9.0,9.0,11792151257.0
+2015,bm - licitación pública nacional - lpn,6,8.0,8.0,15684449964.0
+2015,bm - selección basada en la calidad y el costo,3,2.0,2.0,5275610440.0
+2015,bm - selección basada en las calificaciones de consultores,1,1.0,1.0,18150000.0
+2015,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,3,5.0,5.0,178600000.0
+2015,concurso de ofertas,2556,3098.0,3065.0,668247974581.0
+2015,contratación directa,7414,7285.0,7032.0,347222462996.0
+2015,contratación por excepción,302,581.0,576.0,592430765573.0
+2015,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,10,5.0,5.0,1327590000.0
+2015,licitación pública internacional,54,68.0,68.0,2685693880438.0
+2015,licitación pública nacional,1228,3142.0,3771.0,6983225299034.0
+2015,locación de inmuebles,288,492.0,489.0,54240336444.0
+2015,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,5,4.0,4.0,2638516483.0
+2015,selección basada en el menor costo,2,2.0,2.0,11474900000.0
+2015,selección basada en la calidad,2,2.0,2.0,75640311500.0
+2015,selección basada en la calidad y el costo,11,9.0,9.0,35562857756.0
+2015,selección basada en las calificaciones de los consultores,5,5.0,5.0,2625991978.0
+2015,selección cuando el presupuesto es fijo,2,2.0,2.0,0.0
+2015,selección sobre la base la comparación de las calificaciones,25,20.0,20.0,2740186384.0
+2016,(sin dato),3684,0.0,0.0,0.0
+2016,acuerdo nacional,2,1.0,1.0,54390000000.0
+2016,bid - concurso de ofertas (co/cp),9,10.0,10.0,10247106829.0
+2016,bid - contratación directa (cd/sd),37,29.0,29.0,11569369099.0
+2016,bid - licitación internacional,16,27.0,27.0,1816330846669.0
+2016,bid - licitación pública nacional,6,4.0,4.0,21921067829.0
+2016,bm - concurso de ofertas - co,5,4.0,4.0,1620764960.0
+2016,bm - contratación directa - cd,8,6.0,6.0,605110712.0
+2016,bm - contratación por excepción - ce,1,1.0,1.0,73097500.0
+2016,bm - licitación pública internacional - lpi,7,10.0,10.0,20888502809.0
+2016,bm - licitación pública nacional - lpn,7,7.0,7.0,33481816716.0
+2016,bm - selección basada en el menor costo,5,2.0,2.0,187555818.0
+2016,bm - selección basada en la calidad y el costo,2,1.0,1.0,120000000.0
+2016,bm - selección basada en las calificaciones de consultores,2,3.0,3.0,158400000.0
+2016,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,8,11.0,11.0,306519743.0
+2016,concurso de ofertas,2573,3032.0,2980.0,691085591449.0
+2016,contratación directa,8548,8427.0,8234.0,439750563565.0
+2016,contratación por excepción,405,527.0,518.0,796914280879.0
+2016,lco_dncp_bid_obras - licitación por concurso de oferta sistema nacional bid obras simples,1,1.0,1.0,143272835.0
+2016,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,12,25.0,25.0,3373757948.0
+2016,licitación pública internacional,63,78.0,79.0,6355301309975.0
+2016,licitación pública nacional,1314,2729.0,2705.0,8027329250573.0
+2016,locación de inmuebles,347,492.0,492.0,74330613408.0
+2016,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,6,4.0,4.0,4008150000.0
+2016,selección basada en el menor costo,3,3.0,3.0,9435027180.0
+2016,selección basada en la calidad,3,3.0,3.0,3879282957.0
+2016,selección basada en la calidad y el costo,6,6.0,6.0,18400407304.0
+2016,selección basada en las calificaciones de los consultores,4,3.0,3.0,1079110407.0
+2016,selección sobre la base la comparación de las calificaciones,13,12.0,12.0,2052922456.0
+2017,(sin dato),3074,0.0,0.0,0.0
+2017,acuerdo nacional,1,1.0,1.0,70875000000.0
+2017,bid - concurso de ofertas (co/cp),12,26.0,26.0,16636419432.0
+2017,bid - contratación directa (cd/sd),38,39.0,39.0,8981561462.0
+2017,bid - licitación internacional,14,22.0,22.0,605833110734.0
+2017,bid - licitación pública nacional,2,2.0,2.0,28984676453.0
+2017,bm - concurso de ofertas - co,3,4.0,4.0,1067306474.0
+2017,bm - contratación directa - cd,2,2.0,2.0,73458000.0
+2017,bm - licitación pública internacional - lpi,1,1.0,1.0,0.0
+2017,bm - licitación pública nacional - lpn,4,14.0,14.0,7036647190.0
+2017,bm - selección basada en el menor costo,1,1.0,1.0,88000000.0
+2017,bm - selección basada en la calidad y el costo,1,1.0,1.0,1154228884.0
+2017,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,5,6.0,6.0,298939999.0
+2017,concurso de ofertas,2741,3428.0,3361.0,825075581853.0
+2017,contratación directa,8715,9010.0,8769.0,515622185135.0
+2017,contratación por excepción,427,478.0,476.0,800414343063.0
+2017,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,5,7.0,7.0,2547319996.0
+2017,licitación pública internacional,63,86.0,88.0,3915554231650.0
+2017,licitación pública nacional,1413,3080.0,3059.0,10070461491405.0
+2017,locación de inmuebles,334,444.0,443.0,85481529413.0
+2017,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,5,7.0,6.0,6267080302.0
+2017,selección basada en el menor costo,1,1.0,1.0,8827425000.0
+2017,selección basada en la calidad,1,1.0,1.0,6520000000.0
+2017,selección basada en la calidad y el costo,6,6.0,6.0,43819613152.0
+2017,selección basada en las calificaciones de los consultores,7,7.0,7.0,2817915663.0
+2017,selección sobre la base la comparación de las calificaciones,19,15.0,14.0,2599137273.0
+2018,(sin dato),2886,0.0,0.0,0.0
+2018,acuerdo nacional,4,10.0,10.0,119713498358.0
+2018,bid - concurso de ofertas (co/cp),4,4.0,4.0,2250158028.0
+2018,bid - contratación directa (cd/sd),12,12.0,12.0,2390948067.0
+2018,bid - licitación internacional,5,15.0,15.0,305796113136.0
+2018,bid - licitación pública nacional,2,3.0,3.0,7549920800.0
+2018,bm - concurso de ofertas - co,3,4.0,4.0,270267173.0
+2018,bm - contratación directa - cd,12,10.0,9.0,616405767.0
+2018,bm - licitación pública internacional - lpi,3,2.0,2.0,167962553850.0
+2018,bm - licitación pública nacional - lpn,2,2.0,2.0,1932300000.0
+2018,bm - selección basada en el menor costo,1,1.0,1.0,255000000.0
+2018,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,2,3.0,3.0,117357829.0
+2018,concurso de ofertas,2342,3074.0,2998.0,732675710044.0
+2018,contratación directa,7903,8338.0,8006.0,483538838620.0
+2018,contratación por excepción,282,335.0,324.0,472262487580.0
+2018,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,5,7.0,7.0,949409995.0
+2018,licitación pública internacional,53,59.0,58.0,2255409907415.0
+2018,licitación pública nacional,1202,2581.0,2578.0,8894674034718.0
+2018,locación de inmuebles,253,368.0,366.0,57564241164.0
+2018,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,2,6.0,5.0,523113690.0
+2018,selección basada en el menor costo,2,2.0,2.0,13250235084.0
+2018,selección basada en la calidad,2,1.0,1.0,2563488237.0
+2018,selección basada en la calidad y el costo,3,2.0,2.0,5814105877.0
+2018,selección basada en las calificaciones de los consultores,4,2.0,2.0,1172195080.0
+2018,selección sobre la base la comparación de las calificaciones,2,1.0,1.0,105000000.0
+2019,(sin dato),2855,0.0,0.0,0.0
+2019,acuerdo nacional,6,21.0,21.0,364751608182.0
+2019,bid - concurso de ofertas (co/cp),21,30.0,29.0,72299550725.0
+2019,bid - contratación directa (cd/sd),16,16.0,16.0,9248976411.0
+2019,bid - licitación internacional,14,29.0,28.0,1879074767883.0
+2019,bid - licitación pública nacional,2,3.0,3.0,266495050610.0
+2019,bm - concurso de ofertas - co,1,1.0,1.0,204500000.0
+2019,bm - contratación directa - cd,7,4.0,4.0,323087000.0
+2019,bm - licitación pública nacional - lpn,5,9.0,9.0,30202286403.0
+2019,concurso de ofertas,2567,3276.0,3203.0,820615249342.0
+2019,contratación directa,8798,8993.0,8653.0,570646404102.0
+2019,contratación por excepción,398,541.0,517.0,1207321003095.0
+2019,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,1,1.0,1.0,342210884.0
+2019,licitación pública internacional,77,132.0,132.0,4026865574644.0
+2019,licitación pública nacional,1525,3542.0,3689.0,16331700896823.0
+2019,locación de inmuebles,308,461.0,459.0,89275203590.0
+2019,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,8,12.0,12.0,8433552329.0
+2019,selección basada en el menor costo,1,1.0,1.0,1513752247.0
+2019,selección basada en la calidad y el costo,2,2.0,2.0,5882743730.0
+2019,selección sobre la base la comparación de las calificaciones,5,4.0,4.0,649900000.0
+2020,(sin dato),3712,0.0,0.0,0.0
+2020,acuerdo nacional,6,15.0,15.0,231877730500.0
+2020,bid - concurso de ofertas (co/cp),28,45.0,45.0,116825670135.0
+2020,bid - contratación directa (cd/sd),13,8.0,8.0,3077690214.0
+2020,bid - licitación internacional,14,25.0,25.0,969959110921.0
+2020,bid - licitación pública nacional,4,2.0,2.0,1044604000.0
+2020,bm - concurso de ofertas - co,9,10.0,10.0,2741180326.0
+2020,bm - contratación directa - cd,4,1.0,1.0,45300000.0
+2020,bm - licitación pública internacional - lpi,1,1.0,1.0,192434119364.0
+2020,bm - licitación pública nacional - lpn,4,10.0,10.0,31914316824.0
+2020,cd_dncp_bid - contratación directa sistema nacional bid bienes no comunes y obras simples,1,1.0,1.0,85100000.0
+2020,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,2,1.0,1.0,155000000.0
+2020,concurso de ofertas,1680,2032.0,1950.0,539472504074.0
+2020,contratación directa,5518,5178.0,4864.0,346839573497.0
+2020,contratación por excepción,573,781.0,682.0,1332689472690.0
+2020,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,1,5.0,5.0,167090000.0
+2020,licitación pública internacional,39,55.0,53.0,3941079628064.0
+2020,licitación pública nacional,976,20306.0,17326.0,9931543731492.0
+2020,locación de inmuebles,216,270.0,267.0,62812967354.0
+2020,selección basada en la calidad,3,1.0,1.0,1205050000.0
+2020,selección basada en la calidad y el costo,13,10.0,10.0,33307426272.0
+2020,selección basada en las calificaciones de los consultores,2,2.0,2.0,345600000.0
+2020,selección sobre la base la comparación de las calificaciones,15,10.0,10.0,2152290000.0
+2021,(sin dato),2975,0.0,0.0,0.0
+2021,acuerdo nacional,5,14.0,14.0,138673885244.0
+2021,bid - concurso de ofertas (co/cp),32,49.0,47.0,20228945078.0
+2021,bid - contratación directa (cd/sd),16,12.0,12.0,2892551493.0
+2021,bid - licitación internacional,13,23.0,23.0,619465053562.0
+2021,bid - licitación pública nacional,11,12.0,12.0,5850702933.0
+2021,bm - concurso de ofertas - co,7,6.0,6.0,1402977994.0
+2021,bm - contratación directa - cd,3,3.0,3.0,156770950.0
+2021,bm - contratación por excepción - ce,1,18.0,18.0,61589718000.0
+2021,bm - licitación pública internacional - lpi,3,25.0,25.0,166007712589.0
+2021,bm - licitación pública nacional - lpn,6,17.0,17.0,30887821990.0
+2021,bm - selección basada en las calificaciones de consultores,2,1.0,1.0,2394114250.0
+2021,concurso de ofertas,1811,2277.0,2221.0,629879825339.0
+2021,contratación directa,5786,5764.0,5509.0,390778357819.0
+2021,contratación por excepción,468,698.0,598.0,1303345030904.0
+2021,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,3,2.0,2.0,650430000.0
+2021,licitación pública internacional,60,102.0,102.0,4038379261875.0
+2021,licitación pública nacional,1126,5487.0,3653.0,10208796522816.0
+2021,locación de inmuebles,227,503.0,502.0,69442615616.0
+2021,lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,1,0.0,0.0,0.0
+2021,selección basada en la calidad y el costo,9,11.0,11.0,63082495001.0
+2021,selección basada en las calificaciones de los consultores,16,12.0,12.0,4381581709.0
+2021,selección sobre la base la comparación de las calificaciones,13,17.0,17.0,1550200000.0
+2022,(sin dato),7500,0.0,0.0,0.0
+2022,acuerdo nacional,11,52.0,52.0,150592369100.0
+2022,bid - concurso de ofertas (co/cp),70,86.0,86.0,118273428847.0
+2022,bid - contratación directa (cd/sd),12,7.0,7.0,2404159820.0
+2022,bid - licitación internacional,11,14.0,14.0,1535386569574.0
+2022,bid - licitación pública nacional,8,14.0,14.0,17480455211.0
+2022,bm - concurso de ofertas - co,7,6.0,6.0,2332299340.0
+2022,bm - contratación directa - cd,8,9.0,9.0,564596405.0
+2022,bm - licitación pública internacional - lpi,4,8.0,8.0,90468978610.0
+2022,bm - licitación pública nacional - lpn,7,18.0,18.0,97367175774.0
+2022,bm - selección basada en el menor costo,1,1.0,1.0,266000000.0
+2022,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,4,7.0,7.0,618293082.0
+2022,concurso de ofertas,2070,2559.0,2496.0,787725861870.0
+2022,contratación directa,5902,6079.0,5914.0,447092937108.0
+2022,contratación por excepción,535,721.0,593.0,1120790212758.0
+2022,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,3,3.0,3.0,1344999905.0
+2022,licitación pública internacional,55,69.0,68.0,6192404930130.0
+2022,licitación pública nacional,1343,10149.0,4520.0,16275062158469.0
+2022,locación de inmuebles,289,368.0,358.0,94340759652.0
+2022,selección basada en el menor costo,1,0.0,0.0,0.0
+2022,selección basada en la calidad y el costo,7,7.0,7.0,19895086949.0
+2022,selección basada en las calificaciones de los consultores,7,6.0,6.0,1477960000.0
+2022,selección con base en una sola fuente,1,1.0,1.0,132000000.0
+2022,selección cuando el presupuesto es fijo,2,2.0,2.0,9398750000.0
+2022,selección sobre la base la comparación de las calificaciones,7,17.0,17.0,4449600000.0
+2023,(sin dato),3104,0.0,0.0,0.0
+2023,acuerdo nacional,6,38.0,38.0,121684560206.0
+2023,bid - concurso de ofertas (co/cp),15,15.0,15.0,11571721769.0
+2023,bid - contratación directa (cd/sd),11,10.0,10.0,25216550443.0
+2023,bid - licitación internacional,8,12.0,12.0,31399733081.0
+2023,bid - licitación pública nacional,6,3.0,3.0,29370633350.0
+2023,bm - concurso de ofertas - co,6,8.0,8.0,2120399864.0
+2023,bm - contratación directa - cd,5,4.0,4.0,516931030.0
+2023,bm - licitación pública nacional - lpn,8,23.0,23.0,74552914555.0
+2023,bm - selección basada en la calidad y el costo,1,0.0,0.0,0.0
+2023,bm - selección basada en las calificaciones de consultores,1,0.0,0.0,0.0
+2023,cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,2,5.0,5.0,120663437.0
+2023,concurso de ofertas,1833,2281.0,2216.0,769966099927.0
+2023,contratación directa,5715,5933.0,5714.0,464269162595.0
+2023,contratación por excepción,399,447.0,273.0,1155775703186.0
+2023,lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,3,2.0,2.0,1280000000.0
+2023,licitación pública internacional,27,33.0,29.0,4054855177973.0
+2023,licitación pública nacional,1112,5598.0,2757.0,11430664696499.0
+2023,locación de inmuebles,300,385.0,380.0,100660636592.0
+2023,selección basada en la calidad y el costo,5,2.0,2.0,8867878176.0
+2023,selección basada en las calificaciones de los consultores,5,5.0,4.0,3027000000.0
+2023,selección sobre la base la comparación de las calificaciones,9,11.0,11.0,3456000000.0
+2024,(sin dato),527,0.0,0.0,0.0
+2024,acuerdo nacional,10,99.0,98.0,155876510925.0
+2024,banco mundial - selección con base en una sola fuente,2,5.0,5.0,4582168634.0
+2024,bid - comparación de precios,11,12.0,12.0,3832083460.0
+2024,bid - concurso de ofertas (co/cp),1,2.0,2.0,97923200.0
+2024,bid - licitación internacional,8,16.0,16.0,31829000126.0
+2024,bid - licitación pública nacional,3,3.0,3.0,1779824575.0
+2024,bid - selección basada en calificación de consultores,2,2.0,2.0,1807854000.0
+2024,bm - comparación de precios,6,7.0,7.0,4913621996.0
+2024,bm - licitación pública nacional - lpn,1,2.0,2.0,30427015378.0
+2024,bm - selección basada en la calidad,1,1.0,1.0,1329726000.0
+2024,concurso de ofertas,229,284.0,276.0,96341984770.0
+2024,contratación directa,338,360.0,349.0,32733262176.0
+2024,contratación por excepción,40,100.0,88.0,939047842437.0
+2024,cve con difusión previa,113,117.0,115.0,966191086050.0
+2024,especiales subasta a la baja electrónica internacional,1,4.0,4.0,0.0
+2024,licitación pública internacional,53,78.0,77.0,3475758758490.0
+2024,licitación pública nacional,1842,6128.0,3705.0,22215372687225.0
+2024,locación de inmuebles,16,23.0,7.0,9177171945.0
+2024,menor cuantía internacional,6,6.0,6.0,338626587.0
+2024,menor cuantía nacional,5576,5807.0,5647.0,885126508304.0
+2024,selección basada en el menor costo,1,1.0,0.0,448893000.0
+2024,selección basada en la calidad y el costo,7,4.0,4.0,8124139889.0
+2024,selección basada en las calificaciones de los consultores,3,2.0,2.0,300000000.0
+2024,selección cuando el presupuesto es fijo,2,3.0,3.0,627400000.0
+2024,selección sobre la base la comparación de las calificaciones,1,3.0,3.0,810000000.0
+2024,subasta a la baja electrónica nacional,36,52.0,51.0,65250986005.0
+2025,(sin dato),7,0.0,0.0,0.0
+2025,acuerdo nacional,6,33.0,12.0,159447358000.0
+2025,banco mundial - selección con base en una sola fuente,1,1.0,1.0,80000000.0
+2025,bid - comparación de precios,24,40.0,39.0,7930567049.0
+2025,bid - licitación internacional,7,3.0,3.0,148377816137.0
+2025,bid - licitación pública nacional,4,4.0,4.0,11019405153.0
+2025,bid - selección basada en calificación de consultores,4,1.0,1.0,725000000.0
+2025,bm - comparación de precios,1,1.0,1.0,300000000.0
+2025,bm - selección basada en la calidad y el costo,1,1.0,1.0,1073500000.0
+2025,concurso de ofertas,1,1.0,1.0,798999996.0
+2025,cve con difusión previa,101,93.0,90.0,169470169207.0
+2025,especiales subasta a la baja electrónica internacional,10,8.0,8.0,0.0
+2025,licitación pública internacional,38,44.0,40.0,968085313797.0
+2025,licitación pública nacional,1853,3526.0,3107.0,14123138386924.0
+2025,menor cuantía internacional,10,9.0,9.0,713760496.0
+2025,menor cuantía nacional,6404,6820.0,6620.0,1144449142873.0
+2025,selección basada en el menor costo,2,2.0,2.0,570952800.0
+2025,selección basada en la calidad y el costo,19,13.0,11.0,36257697843.0
+2025,selección cuando el presupuesto es fijo,1,4.0,4.0,32000180488.0
+2025,selección sobre la base la comparación de las calificaciones,4,4.0,4.0,738500000.0
+2025,subasta a la baja electrónica nacional,251,452.0,425.0,2879987485918.0
+2026,(sin dato),1,0.0,0.0,0.0
+2026,acuerdo nacional,2,1.0,1.0,998592000.0
+2026,bid - comparación de precios,1,0.0,0.0,0.0
+2026,bid - licitación internacional,3,0.0,0.0,0.0
+2026,bm - selección basada en la calidad y el costo,1,0.0,0.0,0.0
+2026,cve con difusión previa,40,22.0,16.0,47076523156.0
+2026,especiales subasta a la baja electrónica internacional,7,6.0,6.0,80918476800.0
+2026,licitación pública internacional,20,6.0,3.0,878900000.0
+2026,licitación pública nacional,547,272.0,182.0,628541249756.0
+2026,menor cuantía internacional,3,3.0,2.0,0.0
+2026,menor cuantía nacional,2301,1322.0,933.0,248454357396.0
+2026,selección basada en la calidad y el costo,7,2.0,0.0,933587767.0
+2026,selección sobre la base la comparación de las calificaciones,1,0.0,0.0,0.0
+2026,subasta a la baja electrónica nacional,56,14.0,4.0,340590815396.0

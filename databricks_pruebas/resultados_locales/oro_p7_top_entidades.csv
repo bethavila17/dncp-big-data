@@ -1,0 +1,16 @@
+﻿grupo,puesto,entidad,monto_billones_pyg,cuota_pct
+alimentos,1,Ministerio de Salud Pública y Bienestar Social (MSPBS),1.414,16.24
+alimentos,2,Honorable Cámara de Diputados (DIPUTADOS),0.999,11.48
+alimentos,3,Gobierno Departamental de Central (CENTRAL),0.714,8.2
+alimentos,4,Ministerio del Interior (M.I.),0.691,7.93
+alimentos,5,Ministerio de Defensa Nacional (MDN),0.669,7.69
+combustible,1,Petróleos Paraguayos (PETROPAR),32.246,91.26
+combustible,2,Industria Nacional del Cemento (INC),1.152,3.26
+combustible,3,Ministerio del Interior (M.I.),0.289,0.82
+combustible,4,Municipalidad de Asunción,0.228,0.64
+combustible,5,Ministerio de Defensa Nacional (MDN),0.107,0.3
+medicamentos,1,Ministerio de Salud Pública y Bienestar Social (MSPBS),19.625,54.33
+medicamentos,2,Instituto de Previsión Social (IPS),15.603,43.19
+medicamentos,3,Universidad Nacional de Asunción (UNA),0.254,0.7
+medicamentos,4,Ministerio del Interior (M.I.),0.217,0.6
+medicamentos,5,Dirección de Beneficencia (DIBEN),0.108,0.3

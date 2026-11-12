@@ -1,0 +1,21 @@
+DuckDB: P1, P3 y P5
+  -> resultados\full\duckdb\p1_anio_modalidad.csv (416 filas)
+  -> resultados\full\duckdb\p3_desvio_resumen.csv (1 filas)
+  -> resultados\full\duckdb\p5_concentracion_entidad.csv (376 filas)
+Polars (lazy): P2 y P6
+  -> resultados\full\polars\p2_unica_oferta_modalidad.csv (43 filas)
+  -> resultados\full\polars\p2_unica_oferta_tipo_entidad.csv (15 filas)
+  -> resultados\full\polars\p2_unica_oferta_anio.csv (17 filas)
+  -> resultados\full\polars\p6_dias_modalidad.csv (26 filas)
+  -> resultados\full\polars\p6_tramos_dias_oferentes.csv (6 filas)
+Formatos: CSV, CSV gzip, Parquet Snappy y Parquet Zstd
+  -> resultados\full\formatos\comparacion_formatos_items.csv (4 filas)
+       formato     mb  escritura_s  consulta_monto_por_anio_s  veces_mas_chico_que_csv
+           CSV 1741.5        15.86                      5.837                      1.0
+      CSV gzip  180.9       336.20                     17.714                      9.6
+Parquet Snappy  216.1        23.67                      0.237                      8.1
+  Parquet Zstd  143.9        21.50                      0.222                     12.1
+
+real	8m32.929s
+user	0m0.000s
+sys	0m0.125s

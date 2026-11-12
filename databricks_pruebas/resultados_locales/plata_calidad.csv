@@ -1,0 +1,38 @@
+﻿tabla,tipo,paso,filas_afectadas,filas_totales,pct,motivo
+procesos,regla (cuarentena),ocid_presente,0,246686,0.0,La fila no cumple la regla
+procesos,regla (cuarentena),llamado_presente,0,246686,0.0,La fila no cumple la regla
+procesos,regla (cuarentena),anio_valido,0,246686,0.0,La fila no cumple la regla
+procesos,corrección,duplicados por ocid eliminados,0,246686,0.0,Cada registro debe aparecer una sola vez
+procesos,corrección,modalidad normalizada,190996,246686,77.42,"La misma modalidad venía con distintas mayúsculas, espacios o tabuladores"
+procesos,enriquecimiento,tipo de entidad completado con ref_entidades,42261,246686,17.13,El registro no traía el tipo; la entidad lo informa en otros procesos
+procesos,corrección,tipo de entidad sin dato,4316,246686,1.75,La entidad nunca informa su tipo: queda 'Sin dato'
+procesos,corrección,sin comprador único (llamados consolidados),86,246686,0.03,Licitaciones de varias entidades sin buyer: se conservan con entidad '(sin comprador único)'
+procesos,corrección,oferentes recuperados de la lista de ofertas,2663,246686,1.08,"numberOfTenderers vacío, pero hay oferentes en tenderers o bids"
+procesos,corrección,sin fechas de convocatoria,59585,246686,24.15,No se puede calcular el plazo: queda nulo
+procesos,corrección,plazo negativo -> nulo,98,246686,0.04,La fecha de cierre es anterior a la de inicio
+procesos,corrección,plazo mayor a 365 días -> nulo,41,246686,0.02,Valor fuera de rango
+procesos,corrección,monto estimado en otra moneda,560,246686,0.23,Se analizan montos en guaraníes; no se convierten monedas
+procesos,corrección,monto estimado cero o negativo -> nulo,114,246686,0.05,Valor fuera de rango
+procesos,enriquecimiento,solo planificación (sin llamado publicado),55690,246686,22.58,Columna solo_planificacion: se cuentan aparte en P1
+procesos,enriquecimiento,desvío estimado/adjudicado calculado,159738,246686,64.75,Columna desvio_pct para P3
+adjudicaciones,regla (cuarentena),adjudicacion_presente,0,275126,0.0,La fila no cumple la regla
+adjudicaciones,regla (cuarentena),proveedor_presente,0,275126,0.0,La fila no cumple la regla
+adjudicaciones,regla (cuarentena),monto_no_negativo,0,275126,0.0,La fila no cumple la regla
+adjudicaciones,regla (cuarentena),anio_valido,0,275126,0.0,La fila no cumple la regla
+adjudicaciones,corrección,"duplicados por ocid, adjudicacion_id, proveedor_id eliminados",0,275126,0.0,Cada registro debe aparecer una sola vez
+adjudicaciones,corrección,canceladas o sin estado (valida = false),3387,275126,1.23,Se excluyen de los análisis de montos
+adjudicaciones,corrección,monto en otra moneda (monto_pyg nulo),792,275126,0.29,Se analizan montos en guaraníes
+adjudicaciones,enriquecimiento,monto repartido entre varios proveedores,759,275126,0.28,Columna monto_atribuido_pyg: evita contar dos veces un monto
+contratos,regla (cuarentena),contrato_presente,703,268921,0.26,La fila no cumple la regla
+contratos,regla (cuarentena),adjudicacion_asociada,17916,268921,6.66,La fila no cumple la regla
+contratos,regla (cuarentena),monto_no_negativo,0,268921,0.0,La fila no cumple la regla
+contratos,corrección,"duplicados por ocid, contrato_id eliminados",0,268921,0.0,Cada registro debe aparecer una sola vez
+contratos,enriquecimiento,proveedor tomado de la adjudicación (sin proveedor: nulo),254802,254802,100.0,Join con plata_adjudicaciones por ocid y adjudicación
+items,regla (cuarentena),cantidad_no_negativa,9,4560806,0.0,La fila no cumple la regla
+items,regla (cuarentena),precio_no_negativo,15,4560806,0.0,La fila no cumple la regla
+items,regla (cuarentena),descripcion_o_catalogo,4904,4560806,0.11,La fila no cumple la regla
+items,corrección,de adjudicaciones canceladas o sin estado,22867,4555881,0.5,Se excluyen del gasto
+items,corrección,sin cantidad (contratos abiertos por monto): monto nulo,0,4555881,0.0,No se puede calcular cantidad x precio
+items,corrección,precio en otra moneda,10139,4555881,0.22,Se analizan montos en guaraníes
+items,corrección,código de catálogo sin formato UNSPSC,0,4555881,0.0,No se puede clasificar
+items,enriquecimiento,clasificados en un grupo de gasto (join con ref_grupos_gasto),166950,4555881,3.66,Columna grupo_catalogo para P7

@@ -1,0 +1,377 @@
+﻿entidad_id,entidad,tipo_entidad,adjudicaciones,proveedores,monto_pyg,share_top1,share_top10,hhi
+DNCP-SICP-CODE-20,Ministerio de Obras Públicas y Comunicaciones (MOPC),Poder Ejecutivo,3232,1308,55257480263485.0,4.2134,22.2426,96.1145
+DNCP-SICP-CODE-179,Petróleos Paraguayos (PETROPAR),Empresas Públicas,2376,758,42350917966056.0,27.1312,74.5694,1113.0975
+DNCP-SICP-CODE-306,Ministerio de Salud Pública y Bienestar Social (MSPBS),Poder Ejecutivo,22754,2262,41554841969154.0,5.4384,34.1625,175.4532
+DNCP-SICP-CODE-157,Instituto de Previsión Social (IPS),Entidades Públicas de Seguridad Social,7314,874,31150586201907.0,9.1827,39.7464,233.211
+DNCP-SICP-CODE-167,Administración Nacional de Electricidad (ANDE),Empresas Públicas,5982,1277,12226728259913.0,4.5762,27.1523,115.387
+DNCP-SICP-CODE-1,Ministerio de Educación y Ciencias (MEC),Poder Ejecutivo,2631,846,6343413065127.0,8.9475,50.3355,325.7552
+DNCP-SICP-CODE-299,Ministerio del Interior (M.I.),Poder Ejecutivo,4987,951,4473900016379.0,5.6397,35.0946,179.5554
+DNCP-SICP-CODE-304,Ministerio de Defensa Nacional (MDN),Poder Ejecutivo,11939,1331,4279748835234.0,17.141,36.8468,369.8824
+DNCP-SICP-CODE-189,Industria Nacional del Cemento (INC),Empresas Públicas,2111,552,4270819858629.0,12.4786,50.4377,392.4387
+DNCP-SICP-CODE-21,Corte Suprema de Justicia (CSJ),Poder Judicial,10032,1717,4079719177680.0,36.0622,59.4221,1393.42
+DNCP-SICP-CODE-226,Universidad Nacional de Asunción (UNA),Universidades Nacionales,15554,1703,2589941980987.0,7.2353,28.7372,154.8969
+DNCP-SICP-CODE-108,Municipalidad de Asunción,Municipalidades,2800,945,2530912189947.0,8.0451,36.5931,204.4762
+DNCP-SICP-CODE-301,Presidencia de la República,Poder Ejecutivo,10084,1829,2473375450422.0,3.358,17.3172,67.271
+DNCP-SICP-CODE-18,Empresa de Servicios Sanitarios del Paraguay (ESSAP),Soc. Anónimas con Part. Accionaria Mayoritaria del Estado,1579,581,2432049887756.0,25.568,48.7381,746.9106
+DNCP-SICP-CODE-191,Banco Nacional de Fomento (BNF),Entidades Financieras Oficiales,2211,747,2281197344870.0,13.1821,42.2137,352.9748
+DNCP-SICP-CODE-39,Banco Central del Paraguay (BCP),Banca Central del Estado,2333,670,2250186520153.0,6.176,41.4764,233.7272
+DNCP-SICP-CODE-392,Dirección Nacional de Ingresos Tributarios (DNIT),Entes Autónomos y Autárquicos,1923,575,1903056148209.0,12.0302,61.0685,514.3058
+DNCP-SICP-CODE-11,Ministerio de Justicia (MJ),Poder Ejecutivo,2092,958,1766817768181.0,10.7969,46.6427,338.4127
+DNCP-SICP-CODE-178,Dirección Nacional de Aeronáutica Civil (DINAC),Empresas Públicas,2757,777,1570231247611.0,7.3119,37.668,207.4414
+DNCP-SICP-CODE-24,Tribunal Superior de Justicia Electoral (TSJE),Poder Judicial,1884,655,1520446361458.0,15.6357,44.8809,426.3741
+DNCP-SICP-CODE-305,Ministerio de Economía y Finanzas,Poder Ejecutivo,2828,892,1513191055082.0,27.0299,56.0022,866.5334
+DNCP-SICP-CODE-355,"Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)",Poder Ejecutivo,2852,940,1482863381657.0,7.7644,31.3865,158.0759
+DNCP-SICP-CODE-81,Gobierno Departamental de Central (CENTRAL),Gobiernos Departamentales,652,291,1351345376503.0,12.1717,67.0606,592.4192
+DNCP-SICP-CODE-12,Ministerio de Agricultura y Ganadería (MAG),Poder Ejecutivo,2628,833,1296961705080.0,12.1355,40.9107,284.1251
+DNCP-SICP-CODE-80,Gobierno Departamental de Alto Paraná (A.PARANÁ),Gobiernos Departamentales,1116,305,1177787685657.0,22.8063,46.1037,625.5722
+DNCP-SICP-CODE-196,Municipalidad de Ciudad del Este,Municipalidades,1248,405,1057159413402.0,9.2619,42.0681,275.4622
+DNCP-SICP-CODE-309,Compañía Paraguaya de Comunicaciones (COPACO),Soc. Anónimas con Part. Accionaria Mayoritaria del Estado,914,384,1045130450245.0,11.5663,48.2031,353.5667
+DNCP-SICP-CODE-105,"Ministerio de Urbanismo, Vivienda y Habitat (MUVH)",Poder Ejecutivo,855,461,979001812258.0,6.9699,36.8835,208.204
+DNCP-SICP-CODE-69,Gobierno Departamental de Itapua (ITAPÚA),Gobiernos Departamentales,1292,379,921555317890.0,14.0038,56.4494,509.36
+DNCP-SICP-CODE-106,Instituto Nacional de Desarrollo Rural y de la Tierra (INDERT),Entes Autónomos y Autárquicos,994,471,826933832444.0,9.1567,37.133,242.7658
+DNCP-SICP-CODE-303,Ministerio de Relaciones Exteriores (MRE),Poder Ejecutivo,1069,327,818463281080.0,17.9361,65.2904,673.6342
+DNCP-SICP-CODE-375,Ministerio de Tecnologías de la Información y Comunicación (MITIC),Poder Ejecutivo,287,165,805832804811.0,24.4084,77.6287,1210.533
+DNCP-SICP-CODE-331,Municipalidad de Carmelo Peralta,Municipalidades,162,64,799927765544.0,77.1116,97.9484,6206.7089
+DNCP-SICP-CODE-137,Comisión Nacional de Telecomunicaciones (CONATEL),Entes Autónomos y Autárquicos,789,351,794545588660.0,36.3225,75.7661,1792.2618
+DNCP-SICP-CODE-307,Servicio Nacional de Calidad y Salud Animal (SENACSA),Entes Autónomos y Autárquicos,2263,625,725035483741.0,18.3104,47.4509,474.7246
+DNCP-SICP-CODE-162,Caja de Jubilaciones y Pensiones de Empleados de Bancarios (CAJ.BANC.),Entidades Públicas de Seguridad Social,358,166,714718716152.0,28.7232,89.096,1725.1571
+DNCP-SICP-CODE-25,Ministerio Público - Fiscalía (FGE),Poder Judicial,3068,870,710268217349.0,5.1446,29.8079,137.4035
+DNCP-SICP-CODE-77,Gobierno Departamental de Misiones (MISIONES),Gobiernos Departamentales,1164,447,681192573702.0,15.3562,68.4869,714.2226
+DNCP-SICP-CODE-90,Gobierno Departamental de Canindeyú (CANINDEYÚ),Gobiernos Departamentales,840,140,644651411279.0,16.5293,66.4028,653.4166
+DNCP-SICP-CODE-82,Gobierno Departamental de Ñeembucú (ÑEEMBUCÚ),Gobiernos Departamentales,608,171,640685302600.0,29.2197,73.6721,1350.1976
+DNCP-SICP-CODE-62,Gobierno Departamental de Caaguazú (CAAGUAZÚ),Gobiernos Departamentales,772,219,638762576784.0,10.9411,62.5472,504.844
+DNCP-SICP-CODE-2,Municipalidad de Salto del Guairá,Municipalidades,1426,286,571090433459.0,20.9935,59.8283,775.1946
+DNCP-SICP-CODE-51,Gobierno Departamental de Cordillera (CORDILLERA),Gobiernos Departamentales,780,278,567168158066.0,43.9899,81.5512,2261.7561
+DNCP-SICP-CODE-317,Servicio Nacional de Calidad y Sanidad Vegetal y de Semillas (SENAVE),Entes Autónomos y Autárquicos,1358,423,523819630269.0,16.0783,55.5559,541.0197
+DNCP-SICP-CODE-40,Gobierno Departamental de Concepción (CONCEPCIÓN),Gobiernos Departamentales,531,166,518869912793.0,29.5476,71.7678,1221.019
+DNCP-SICP-CODE-50,Gobierno Departamental de San Pedro (S.PEDRO),Gobiernos Departamentales,1024,276,496821174069.0,21.3928,55.6446,652.8101
+DNCP-SICP-CODE-300,Honorable Cámara de Diputados (DIPUTADOS),Poder Legislativo,794,183,492396456670.0,44.1587,76.8909,2250.4279
+DNCP-SICP-CODE-78,Gobierno Departamental de Paraguarí (PARAGUARÍ),Gobiernos Departamentales,801,425,490890310576.0,31.3334,77.9134,1619.0544
+DNCP-SICP-CODE-183,Municipalidad de Pedro Juan Caballero,Municipalidades,614,143,458056402695.0,14.5678,66.9381,637.1252
+DNCP-SICP-CODE-298,Congreso Nacional (C.N.),Poder Legislativo,2084,577,445929610741.0,27.8692,49.7283,867.1908
+DNCP-SICP-CODE-123,Instituto Paraguayo del Indígena (INDI),Entes Autónomos y Autárquicos,381,192,434704042818.0,7.6211,52.4645,351.4094
+DNCP-SICP-CODE-107,Dirección de Beneficencia (DIBEN),Entes Autónomos y Autárquicos,894,303,434172662404.0,13.5224,63.1892,562.072
+DNCP-SICP-CODE-87,Gobierno Departamental de Amambay (AMAMBAY),Gobiernos Departamentales,479,146,428437609364.0,17.5877,72.4031,783.5851
+DNCP-SICP-CODE-169,Administración Nacional de Navegación y Puertos (ANNP),Empresas Públicas,844,377,411605232210.0,12.8236,44.7773,361.4379
+DNCP-SICP-CODE-61,Gobierno Departamental de Guairá (GUAIRÁ),Gobiernos Departamentales,436,167,403752825011.0,14.4285,65.2549,616.1394
+DNCP-SICP-CODE-118,Municipalidad de San Lorenzo,Municipalidades,643,298,383457268272.0,9.3116,41.3312,277.6187
+DNCP-SICP-CODE-68,Gobierno Departamental de Caazapá (CAAZAPÁ),Gobiernos Departamentales,338,92,373083415022.0,20.2629,73.6141,876.2714
+DNCP-SICP-CODE-342,Ministerio de la Defensa Pública - Defensoría (MDP),Poder Judicial,813,413,349065481498.0,20.0501,55.1239,611.1159
+DNCP-SICP-CODE-98,Gobierno Departamental de Boquerón,Gobiernos Departamentales,752,214,345474483421.0,6.7213,47.709,299.887
+DNCP-SICP-CODE-372,Ministerio de Desarrollo Social (MDS),Poder Ejecutivo,914,508,331199908768.0,7.0766,31.776,162.4992
+DNCP-SICP-CODE-140,Municipalidad de Encarnación,Municipalidades,1088,335,329796129776.0,8.6735,36.8849,212.3898
+DNCP-SICP-CODE-101,Municipalidad de Luque,Municipalidades,1239,331,322928394159.0,5.3404,31.8307,167.1135
+DNCP-SICP-CODE-92,Gobierno Departamental de Alto Paraguay (GOBALTOPY),Gobiernos Departamentales,417,148,295088075843.0,11.4988,63.4469,504.8287
+DNCP-SICP-CODE-91,Gobierno Departamental de Presidente Hayes (PTE.HAYES),Gobiernos Departamentales,444,224,293598729752.0,20.385,55.9128,685.3445
+DNCP-SICP-CODE-371,Ministerio de la Niñez y la Adolescencia (MINNA),Poder Ejecutivo,790,383,289345070034.0,24.238,68.0817,920.852
+DNCP-SICP-CODE-13,Ministerio de Industria y Comercio (MIC),Poder Ejecutivo,1232,483,284031013693.0,19.578,46.0148,509.5355
+DNCP-SICP-CODE-326,Dirección Nacional de Contrataciones Públicas (DNCP),Entes Autónomos y Autárquicos,1040,396,280559937319.0,8.3657,42.0272,263.5773
+DNCP-SICP-CODE-31,Contraloría General de la República (C.G.R.),Contraloría General de la República,726,298,273755304345.0,68.5062,81.4237,4725.7678
+DNCP-SICP-CODE-65,Municipalidad de Capiatá,Municipalidades,1400,219,272432104446.0,8.1007,56.1239,390.9128
+DNCP-SICP-CODE-297,Honorable Cámara de Senadores,Poder Legislativo,838,286,268974142615.0,55.4216,80.7128,3272.2885
+DNCP-SICP-CODE-199,Municipalidad de Hernandarias,Municipalidades,752,214,249984352217.0,4.3985,31.7722,168.9869
+DNCP-SICP-CODE-66,Municipalidad de Fernando de la Mora,Municipalidades,1437,372,239649131635.0,4.3188,28.5485,136.0849
+DNCP-SICP-CODE-220,Crédito Agrícola de Habilitación (CAH),Entidades Financieras Oficiales,960,349,237610487666.0,13.5308,49.0568,373.0506
+DNCP-SICP-CODE-99,Municipalidad de Lambaré,Municipalidades,678,302,220626366965.0,10.0821,45.7531,321.4878
+DNCP-SICP-CODE-43,Cañas Paraguayas S.A. (CAPASA),Soc. Anónimas con Part. Accionaria Mayoritaria del Estado,315,113,207721102898.0,23.8328,71.9958,893.7557
+DNCP-SICP-CODE-104,"Instituto Nacional de Tecnología, Normalización y Metrología (INTN)",Entes Autónomos y Autárquicos,1491,456,192987043082.0,5.8185,31.0913,170.5959
+DNCP-SICP-CODE-233,Municipalidad de Minga Guazú,Municipalidades,779,193,190519553572.0,9.4204,51.5472,377.8689
+DNCP-SICP-CODE-336,Ministerio del Ambiente y Desarrollo Sostenible (MADES),Poder Ejecutivo,579,267,177919703114.0,18.0213,54.4431,538.2707
+DNCP-SICP-CODE-44,Municipalidad de Presidente Franco,Municipalidades,710,149,174148191117.0,18.2573,59.6488,582.0928
+DNCP-SICP-CODE-316,Agencia Financiera de Desarrollo (AFD),Entidades Financieras Oficiales,902,263,173444922168.0,11.0094,48.9052,396.6602
+DNCP-SICP-CODE-138,Direccion Nacional de Transporte (DINATRAN),Entes Autónomos y Autárquicos,551,223,166303276847.0,15.0204,71.4183,739.0129
+DNCP-SICP-CODE-337,Instituto Paraguayo de Tecnologia Agraria (IPTA),Entes Autónomos y Autárquicos,838,328,161818832764.0,15.795,51.8239,496.2956
+DNCP-SICP-CODE-230,Universidad Nacional del Este (UNE),Sin dato,2700,416,151379461501.0,10.0711,43.8978,293.4899
+DNCP-SICP-CODE-102,Municipalidad de Mariano Roque Alonso,Municipalidades,404,170,141538594060.0,5.7143,40.0857,234.3559
+DNCP-SICP-CODE-269,Municipalidad de Caacupé,Municipalidades,437,156,138599606371.0,14.1198,54.3732,448.4722
+DNCP-SICP-CODE-88,Municipalidad de Itaugua,Municipalidades,901,199,134436086011.0,8.9906,60.8486,438.2577
+DNCP-SICP-CODE-55,Municipalidad de Coronel Oviedo,Municipalidades,633,162,127168484237.0,15.0631,61.5432,569.3461
+DNCP-SICP-CODE-391,Dirección Nacional de Migraciones (DNM),Entes Autónomos y Autárquicos,723,308,126615794659.0,29.1331,56.9919,977.4243
+DNCP-SICP-CODE-129,Municipalidad de Cambyretá,Municipalidades,580,165,121462479943.0,7.5092,40.1964,256.9108
+DNCP-SICP-CODE-241,Municipalidad de Concepción,Municipalidades,492,145,110305954399.0,12.2032,63.8078,550.8861
+DNCP-SICP-CODE-48,Municipalidad de Santa Rita,Municipalidades,528,127,109156408337.0,11.57,49.5538,380.1569
+DNCP-SICP-CODE-41,Municipalidad de Ñemby,Municipalidades,119,69,103953979516.0,11.6023,61.1936,509.4161
+DNCP-SICP-CODE-145,Instituto Nacional de Cooperativismo (INCOOP),Entes Autónomos y Autárquicos,430,198,103543429310.0,16.1321,65.629,666.771
+DNCP-SICP-CODE-237,Universidad Nacional de Itapúa (UNI),Universidades Nacionales,1226,306,101736722435.0,15.8776,42.3367,370.2466
+DNCP-SICP-CODE-201,Municipalidad de Itakyry,Municipalidades,507,119,94553664233.0,8.3634,59.3384,423.801
+DNCP-SICP-CODE-30,Consejo de la Magistratura (C.M.),Poder Judicial,732,264,92177059031.0,20.6318,62.4772,882.8586
+DNCP-SICP-CODE-212,Municipalidad de San Ignacio,Municipalidades,584,161,90633710449.0,8.0877,42.9198,283.8922
+DNCP-SICP-CODE-155,Municipalidad de Pilar,Municipalidades,408,126,88303215485.0,15.8043,48.5658,457.6619
+DNCP-SICP-CODE-117,Municipalidad de San Antonio,Municipalidades,370,96,87554685457.0,18.2476,63.6601,723.691
+DNCP-SICP-CODE-379,Instituto Nacional de Estadística (INE),Entes Autónomos y Autárquicos,393,185,85405277258.0,8.8334,53.3402,385.2716
+DNCP-SICP-CODE-325,Universidad Nacional de Villarrica del Espiritu Santo (UNVES),Universidades Nacionales,631,229,84145867457.0,15.1531,59.1871,554.322
+DNCP-SICP-CODE-190,Municipalidad de Nueva Esperanza,Municipalidades,765,180,78451005670.0,7.1694,42.6092,257.51
+DNCP-SICP-CODE-322,Universidad Nacional de Concepción (UNC),Universidades Nacionales,1341,276,77064804457.0,13.3324,43.4641,340.6612
+DNCP-SICP-CODE-79,Municipalidad de Itá,Municipalidades,362,132,75147335077.0,10.5795,41.6645,309.7269
+DNCP-SICP-CODE-232,Municipalidad de Mbaracayú,Municipalidades,479,112,74177456235.0,8.8973,45.4635,336.9048
+DNCP-SICP-CODE-208,Municipalidad de Tomás Romero Pereira,Municipalidades,393,107,73647934912.0,22.4211,63.5159,776.4205
+DNCP-SICP-CODE-234,Municipalidad de Minga Porá,Municipalidades,366,110,70855740268.0,8.8381,53.4964,380.5978
+DNCP-SICP-CODE-332,Jurado de Enjuiciamiento de Magistrados (JEM),Poder Judicial,482,196,70009954760.0,53.2851,81.8104,3007.0223
+DNCP-SICP-CODE-120,Municipalidad de Villeta,Municipalidades,387,128,69764874957.0,15.2354,61.7126,598.6273
+DNCP-SICP-CODE-335,Instituto Forestal Nacional (INFONA),Entes Autónomos y Autárquicos,505,232,68952293694.0,9.5242,45.2409,296.5857
+DNCP-SICP-CODE-347,Ministerio de la Mujer (MM),Poder Ejecutivo,608,268,68930386213.0,30.3768,63.1755,1275.2663
+DNCP-SICP-CODE-320,Municipalidad de Filadelfia,Municipalidades,399,137,67232953443.0,16.3512,60.0641,578.7443
+DNCP-SICP-CODE-37,Municipalidad de Villarrica,Municipalidades,309,136,65931155780.0,11.663,56.1477,448.0364
+DNCP-SICP-CODE-334,Universidad Nacional de Caaguazu (UNCA),Sin dato,1615,327,64759941986.0,9.5613,45.7109,321.1628
+DNCP-SICP-CODE-188,Municipalidad de la Paloma del Espiritu Santo,Municipalidades,421,63,63246179016.0,16.764,75.0405,797.9589
+DNCP-SICP-CODE-53,Municipalidad de Caaguazú,Municipalidades,219,86,62653332973.0,13.5594,71.377,617.4161
+DNCP-SICP-CODE-100,Municipalidad de Limpio,Municipalidades,181,87,62630859308.0,13.5631,50.355,428.089
+DNCP-SICP-CODE-159,Caja de Jubilaciones y Pensiones del Personal de la Ande (CAJA ANDE),Entidades Públicas de Seguridad Social,573,246,62213474115.0,21.9888,58.6436,725.3243
+DNCP-SICP-CODE-321,Municipalidad de Loma Plata,Municipalidades,529,157,61351043668.0,12.5526,46.0867,348.5286
+DNCP-SICP-CODE-235,Municipalidad de Naranjal,Municipalidades,463,139,61229854448.0,11.2965,52.4042,402.1031
+DNCP-SICP-CODE-187,Municipalidad de Katuete,Municipalidades,203,55,57944820515.0,13.1711,75.4739,740.6312
+DNCP-SICP-CODE-206,Municipalidad de San Pedro del Paraná,Municipalidades,320,75,57400118000.0,10.6097,53.99,401.6658
+DNCP-SICP-CODE-47,Municipalidad de Santa Fé del Paraná,Municipalidades,357,107,54226661420.0,10.9836,50.7147,385.8607
+DNCP-SICP-CODE-119,Municipalidad de Villa Elisa,Municipalidades,121,56,54058468985.0,14.7691,65.7028,608.5075
+DNCP-SICP-CODE-67,Municipalidad de Guarambaré,Municipalidades,391,129,52314555464.0,9.9878,62.0487,481.6747
+DNCP-SICP-CODE-256,Municipalidad de San Estanislao,Municipalidades,413,64,52014626718.0,16.3289,72.603,699.4724
+DNCP-SICP-CODE-231,Universidad Nacional de Pilar (UNP),Universidades Nacionales,941,205,50914722656.0,9.7562,53.3558,381.9562
+DNCP-SICP-CODE-340,Universidad Nacional de Canindeyu (UNICAN),Universidades Nacionales,667,211,50871002377.0,13.1595,49.9158,385.1629
+DNCP-SICP-CODE-352,Direccion Nacional de Propiedad Intelectual (DINAPI),Entes Autónomos y Autárquicos,395,168,50487108077.0,28.275,54.8408,927.2053
+DNCP-SICP-CODE-134,Municipalidad de Coronel Bogado,Municipalidades,366,116,49608849850.0,20.3572,56.5644,636.1708
+DNCP-SICP-CODE-211,Municipalidad de Ayolas,Municipalidades,364,86,49146844608.0,16.4087,64.53,629.0102
+DNCP-SICP-CODE-49,Municipalidad de Santa Rosa del Monday,Municipalidades,430,115,49060172696.0,9.0647,50.7847,371.8813
+DNCP-SICP-CODE-279,Municipalidad de Piribebuy,Municipalidades,238,95,48178453734.0,10.8476,57.3631,461.7838
+DNCP-SICP-CODE-17,Municipalidad de Mcal Jose Félix Estigarribia,Municipalidades,106,61,47267623298.0,13.4927,53.7971,455.0074
+DNCP-SICP-CODE-96,Municipalidad de Caazapá,Municipalidades,102,43,47172162801.0,16.0192,78.1816,805.819
+DNCP-SICP-CODE-217,Municipalidad de Santa Rosa Misiones,Municipalidades,293,100,47008410107.0,19.6939,64.1909,674.9103
+DNCP-SICP-CODE-45,Municipalidad de San Alberto,Municipalidades,284,105,46880315519.0,11.1074,57.3194,461.9042
+DNCP-SICP-CODE-128,Municipalidad de Bella Vista - Itapúa,Municipalidades,452,150,46741861942.0,10.9917,59.0348,477.1799
+DNCP-SICP-CODE-64,Municipalidad de Aregua,Municipalidades,299,55,45377589677.0,18.0995,81.983,984.981
+DNCP-SICP-CODE-221,Fondo Ganadero (FG.),Entidades Financieras Oficiales,526,201,44998711128.0,40.2995,63.039,1721.838
+DNCP-SICP-CODE-203,Municipalidad de Pirapó,Municipalidades,317,107,43400270968.0,12.9782,62.0123,544.1872
+DNCP-SICP-CODE-14,Municipalidad de Villa Hayes,Municipalidades,142,71,42668621396.0,10.8723,53.086,414.4396
+DNCP-SICP-CODE-141,Municipalidad de Fram,Municipalidades,322,121,42101344036.0,10.0058,49.6903,358.3172
+DNCP-SICP-CODE-213,Municipalidad de San Juan Bautista,Municipalidades,136,56,42072466951.0,9.86,61.438,492.1868
+DNCP-SICP-CODE-185,Municipalidad de Gral. Francisco Caballero Alvarez,Municipalidades,277,89,41905116046.0,16.3724,57.7749,534.8796
+DNCP-SICP-CODE-132,Municipalidad de Cárlos Antonio López,Municipalidades,241,77,41133243163.0,9.2348,51.2952,381.9742
+DNCP-SICP-CODE-358,Ag. Nac. de Eval. y Acreditación de la Educación Superior (ANEAES),Entes Autónomos y Autárquicos,705,346,41052422818.0,28.7852,59.9987,1010.8746
+DNCP-SICP-CODE-248,Municipalidad de Capiibary,Municipalidades,251,38,40660734249.0,23.1627,77.4695,959.4446
+DNCP-SICP-CODE-160,Municipalidad de Hohenau,Municipalidades,266,91,40162132945.0,15.301,62.635,576.745
+DNCP-SICP-CODE-260,Municipalidad de Santa Rosa del Aguaray,Municipalidades,172,49,39616968206.0,11.9154,65.5254,548.4736
+DNCP-SICP-CODE-63,Municipalidad de Yguazú,Municipalidades,315,90,39219031126.0,8.871,54.9223,397.2158
+DNCP-SICP-CODE-135,Municipalidad de Edelira,Municipalidades,178,47,37199419979.0,10.423,70.2863,598.7807
+DNCP-SICP-CODE-46,Municipalidad de San Cristobal,Municipalidades,299,84,36805776504.0,18.8313,55.6884,573.5729
+DNCP-SICP-CODE-284,Municipalidad de Tobatí,Municipalidades,265,103,36761119763.0,15.3766,63.4465,567.2543
+DNCP-SICP-CODE-28,Municipalidad de Quiindy,Municipalidades,258,92,36499057700.0,7.9242,48.3627,331.5595
+DNCP-SICP-CODE-126,Municipalidad de Yuty,Municipalidades,150,46,36442617961.0,13.6499,73.7155,712.9844
+DNCP-SICP-CODE-161,Municipalidad de Itapúa Poty,Municipalidades,203,47,35691514080.0,20.1713,71.3539,797.7608
+DNCP-SICP-CODE-57,Municipalidad de Juan Eulogio Estigarribia,Municipalidades,266,75,35281787817.0,19.8188,69.6729,736.0633
+DNCP-SICP-CODE-205,Municipalidad de San Juan del Paraná,Municipalidades,212,76,35248303866.0,10.3398,60.1999,472.2103
+DNCP-SICP-CODE-172,Municipalidad de la Paz,Municipalidades,240,86,35134919347.0,12.8898,53.9026,432.7877
+DNCP-SICP-CODE-236,Municipalidad de Ñacunday,Municipalidades,242,71,35002732769.0,15.0496,63.3299,658.7171
+DNCP-SICP-CODE-74,Municipalidad de Repatriación,Municipalidades,208,61,34890696281.0,22.2935,75.6499,904.9905
+DNCP-SICP-CODE-176,Municipalidad de Obligado,Municipalidades,223,96,34725405569.0,11.194,59.3285,466.4441
+DNCP-SICP-CODE-3,Municipalidad de Villa Curuguaty,Municipalidades,267,63,34517894420.0,10.7516,62.5187,514.3497
+DNCP-SICP-CODE-173,Municipalidad de Mayor Otaño,Municipalidades,185,66,34428870100.0,15.7758,60.1303,581.1021
+DNCP-SICP-CODE-76,Municipalidad de San José de los Arroyos,Municipalidades,234,47,34425600471.0,21.2025,76.5712,881.5451
+DNCP-SICP-CODE-200,Municipalidad de Iruña,Municipalidades,306,85,34382609526.0,22.2571,73.2385,932.3917
+DNCP-SICP-CODE-209,Municipalidad de Trinidad,Municipalidades,176,45,34350532914.0,19.6923,80.3754,1069.9216
+DNCP-SICP-CODE-198,Municipalidad de Juan León Mallorquín,Municipalidades,281,110,34223928050.0,7.3453,45.4342,292.4083
+DNCP-SICP-CODE-207,Municipalidad de San Rafael del Paraná,Municipalidades,197,73,34148663573.0,7.4113,47.0278,320.8407
+DNCP-SICP-CODE-210,Municipalidad de Yatytay,Municipalidades,212,82,33439087817.0,13.7317,66.7972,679.8339
+DNCP-SICP-CODE-302,Vicepresidencia de la República (VP),Poder Ejecutivo,396,194,33439001997.0,15.1605,59.8507,550.5715
+DNCP-SICP-CODE-214,Municipalidad de San Miguel,Municipalidades,188,79,33250144427.0,16.3905,67.3327,680.6496
+DNCP-SICP-CODE-368,Sindicatura General de Quiebras,Poder Judicial,149,70,33005043020.0,46.1001,85.3347,2436.3826
+DNCP-SICP-CODE-59,Municipalidad de José Domingo Ocampos,Municipalidades,283,53,32710999857.0,16.2625,71.7651,667.4345
+DNCP-SICP-CODE-224,Municipalidad de los Cedrales,Municipalidades,283,68,32692802053.0,8.933,56.6263,428.2358
+DNCP-SICP-CODE-311,Instituto Paraguayo de Artesania (IPA),Entes Autónomos y Autárquicos,518,238,32366543606.0,21.6368,45.5893,577.98
+DNCP-SICP-CODE-338,Dirección Nacional de Correos del Paraguay (DINACOPA),Entes Autónomos y Autárquicos,278,157,31622740583.0,18.8985,69.4334,949.7792
+DNCP-SICP-CODE-27,Municipalidad de Pirayú,Municipalidades,221,52,31489481321.0,10.5554,69.4317,559.9335
+DNCP-SICP-CODE-259,Municipalidad de San Pedro del Ycuamandiyú,Municipalidades,177,57,31283457821.0,15.8196,67.5534,644.6681
+DNCP-SICP-CODE-32,Defensoría del Pueblo,Defensoría del Pueblo,204,102,31280657169.0,38.1871,81.6559,2017.2507
+DNCP-SICP-CODE-116,Municipalidad de Nueva Italia,Municipalidades,243,104,31200586316.0,11.4447,49.1649,369.0551
+DNCP-SICP-CODE-345,Municipalidad de Tavapy,Municipalidades,163,63,30999121524.0,9.6087,58.327,454.4966
+DNCP-SICP-CODE-267,Municipalidad de Arroyos y Esteros,Municipalidades,201,59,30789982830.0,21.3771,75.9814,1049.0552
+DNCP-SICP-CODE-133,Municipalidad de Carmen del Paraná,Municipalidades,233,108,30718356803.0,9.6103,51.2605,369.5516
+DNCP-SICP-CODE-272,Municipalidad de Eusebio Ayala,Municipalidades,257,67,30628887566.0,26.0344,74.4289,1046.8557
+DNCP-SICP-CODE-142,Municipalidad de General Artigas,Municipalidades,218,76,30627358917.0,10.2123,58.1369,458.8047
+DNCP-SICP-CODE-174,Municipalidad de Natalio,Municipalidades,122,55,30383760368.0,23.1658,67.778,856.7291
+DNCP-SICP-CODE-131,Municipalidad de Capitán Miranda,Municipalidades,228,83,30081235858.0,9.362,62.4537,510.3883
+DNCP-SICP-CODE-238,Municipalidad de Gral. Bernardino Caballero,Municipalidades,222,46,29581290411.0,15.2177,68.2319,627.282
+DNCP-SICP-CODE-328,Municipalidad de Tembiapora,Municipalidades,201,53,29096020381.0,13.2741,68.2728,597.8577
+DNCP-SICP-CODE-281,Municipalidad de San Bernardino,Municipalidades,149,89,28993283462.0,7.5663,41.6479,282.8936
+DNCP-SICP-CODE-122,Municipalidad de Ypané,Municipalidades,170,52,28549369809.0,12.5412,65.22,540.3903
+DNCP-SICP-CODE-197,Municipalidad de Domingo Martínez de Irala,Municipalidades,247,48,28467344171.0,14.1543,61.6406,540.1387
+DNCP-SICP-CODE-163,Caja de Jubilaciones y Pensiones del Personal Municipal (CAJ.MUNIC.),Entidades Públicas de Seguridad Social,480,226,28040578169.0,9.7823,38.5977,241.6505
+DNCP-SICP-CODE-359,Agencia Nacional de Transito y Seguridad Vial (ANTSV),Entes Autónomos y Autárquicos,213,120,27998214718.0,14.3223,49.7517,466.8456
+DNCP-SICP-CODE-70,Municipalidad de Mcal. Francisco Solano López,Municipalidades,216,55,27868368723.0,24.2411,70.1366,915.4703
+DNCP-SICP-CODE-184,Municipalidad de Corpus Christi,Municipalidades,225,39,27520968455.0,11.5456,73.0154,653.6561
+DNCP-SICP-CODE-6,Municipalidad de Ypejhu,Municipalidades,162,38,27467827519.0,26.6656,78.9733,1166.5658
+DNCP-SICP-CODE-204,Municipalidad de San Cosme y Damián,Municipalidades,156,68,27212174451.0,9.9394,52.7803,384.8198
+DNCP-SICP-CODE-266,Municipalidad de Altos,Municipalidades,175,62,27022426974.0,13.7806,57.5159,494.3355
+DNCP-SICP-CODE-244,Municipalidad de Carapeguá,Municipalidades,110,64,26979719916.0,14.8259,71.1078,737.8716
+DNCP-SICP-CODE-271,Municipalidad de Emboscada,Municipalidades,195,71,26851132032.0,11.5179,67.9852,606.6408
+DNCP-SICP-CODE-243,Municipalidad de Loreto,Municipalidades,79,17,26812786377.0,57.8338,94.4266,3553.0496
+DNCP-SICP-CODE-318,Municipalidad de Tte Irala Fernandez,Municipalidades,128,74,25708741847.0,11.2348,57.7933,484.1624
+DNCP-SICP-CODE-112,Municipalidad de San Juan Nepomuceno,Municipalidades,128,47,25662715059.0,15.2906,78.8001,742.1776
+DNCP-SICP-CODE-351,Municipalidad de Dr. Raul Peña,Municipalidades,154,48,25517018043.0,9.9571,63.0051,509.1509
+DNCP-SICP-CODE-223,Municipalidad de Juan E. O'Leary,Municipalidades,246,69,25506651254.0,24.9765,68.8106,942.331
+DNCP-SICP-CODE-114,Municipalidad de Fulgencio Yegros,Municipalidades,67,21,25342040796.0,36.2521,86.9463,1690.7678
+DNCP-SICP-CODE-265,Municipalidad de Yrybucuá,Municipalidades,159,33,25016924408.0,20.6525,79.7251,1017.4842
+DNCP-SICP-CODE-5,Municipalidad de Yasy Cañy,Municipalidades,156,49,24526500575.0,12.5402,59.8479,533.4291
+DNCP-SICP-CODE-360,Consejo Nacional de Educación Superior (CONES),Entes Autónomos y Autárquicos,165,103,24490283422.0,18.3746,45.9761,494.8568
+DNCP-SICP-CODE-278,Municipalidad de Nueva Colombia,Municipalidades,268,72,23417008537.0,19.4164,73.8395,919.8527
+DNCP-SICP-CODE-73,Municipalidad de Raúl Arsenio Oviedo,Municipalidades,197,47,23225429394.0,15.2032,69.2542,661.737
+DNCP-SICP-CODE-26,Municipalidad de Paraguarí,Municipalidades,164,48,22772540231.0,19.7054,61.2295,655.7805
+DNCP-SICP-CODE-390,Dirección Nacional de Vigilancia Sanitaria (DINAVISA),Entes Autónomos y Autárquicos,72,53,22604121784.0,15.1752,73.7722,725.928
+DNCP-SICP-CODE-270,Municipalidad de Caraguatay,Municipalidades,155,67,22309431170.0,14.0343,59.6021,551.9586
+DNCP-SICP-CODE-7,Municipalidad de Benjamín Aceval,Municipalidades,84,43,21564160158.0,19.073,71.2393,786.6521
+DNCP-SICP-CODE-239,Municipalidad de San Lázaro,Municipalidades,116,42,21516935246.0,18.9769,80.2708,931.3643
+DNCP-SICP-CODE-186,Municipalidad de Itanará,Municipalidades,175,46,21226718302.0,24.3289,74.022,953.4796
+DNCP-SICP-CODE-282,Municipalidad de San José Obrero,Municipalidades,91,30,21166509567.0,62.8985,91.8809,4118.029
+DNCP-SICP-CODE-250,Municipalidad de Gral. Elizardo Aquino,Municipalidades,140,48,21076688854.0,12.4591,66.3254,591.1801
+DNCP-SICP-CODE-216,Municipalidad de Santa María,Municipalidades,108,39,21017276954.0,14.7784,64.4664,584.4721
+DNCP-SICP-CODE-10,Municipalidad de Puerto Pinasco,Municipalidades,60,29,20832231058.0,18.4543,76.2755,811.4969
+DNCP-SICP-CODE-171,Municipalidad de José Leandro Oviedo,Municipalidades,162,39,20551499741.0,21.6829,78.5651,952.628
+DNCP-SICP-CODE-218,Municipalidad de Santiago,Municipalidades,96,42,20514973996.0,14.1156,65.3127,615.6756
+DNCP-SICP-CODE-268,Municipalidad de Atyra,Municipalidades,137,41,20475813977.0,20.3208,76.1837,1050.7683
+DNCP-SICP-CODE-253,Municipalidad de Itacurubí del Rosario,Municipalidades,163,60,20279244152.0,11.601,61.4017,561.8835
+DNCP-SICP-CODE-121,Municipalidad de Ypacarai,Municipalidades,163,40,20260812650.0,21.4189,77.5682,967.4729
+DNCP-SICP-CODE-339,Municipalidad de Gral Jose M. Bruguez,Municipalidades,91,34,20149632930.0,22.4761,83.2973,998.9966
+DNCP-SICP-CODE-276,Municipalidad de Loma Grande,Municipalidades,126,52,19757651244.0,13.253,59.1605,565.6749
+DNCP-SICP-CODE-229,Municipalidad de Caapucú,Municipalidades,115,64,19731998922.0,15.9612,57.4301,537.2805
+DNCP-SICP-CODE-83,Municipalidad de Santa Rosa del Mbutuy,Municipalidades,192,53,19279847508.0,12.9586,72.2177,679.9698
+DNCP-SICP-CODE-242,Municipalidad de Horqueta,Municipalidades,67,31,19232314753.0,14.8161,75.2258,756.6043
+DNCP-SICP-CODE-9,Municipalidad de José Falcón,Municipalidades,116,43,18959425573.0,20.8139,68.0622,795.113
+DNCP-SICP-CODE-4,Municipalidad de Villa Ygatimí,Municipalidades,107,28,18885013969.0,23.2504,83.0625,1114.7224
+DNCP-SICP-CODE-193,Municipalidad de Yaguaron,Municipalidades,164,89,18397120152.0,9.9943,51.1652,359.3868
+DNCP-SICP-CODE-89,Municipalidad de J. Augusto Saldivar,Municipalidades,126,43,18332634459.0,14.6595,64.0264,640.2829
+DNCP-SICP-CODE-376,Municipalidad de Puerto Adela,Municipalidades,141,31,18173519132.0,23.7008,77.9541,1134.3713
+DNCP-SICP-CODE-95,Municipalidad de Mbuyapey,Municipalidades,120,38,17902089194.0,13.2616,72.7493,670.6505
+DNCP-SICP-CODE-170,Municipalidad de Jesús,Municipalidades,38,11,17880299044.0,75.2617,99.5149,5823.6107
+DNCP-SICP-CODE-263,Municipalidad de Villa del Rosario,Municipalidades,121,34,17866640359.0,15.8543,79.7909,927.8413
+DNCP-SICP-CODE-86,Municipalidad de Yhú,Municipalidades,113,52,17828864053.0,16.2313,65.4755,681.162
+DNCP-SICP-CODE-354,Municipalidad de Paso Barreto,Municipalidades,78,34,17771938071.0,14.9075,78.2439,812.3147
+DNCP-SICP-CODE-144,Ente Regulador de Servicios Sanitarios (ERSSAN),Entes Autónomos y Autárquicos,408,182,17144675525.0,8.0571,46.7587,294.169
+DNCP-SICP-CODE-127,Municipalidad de Alto Verá,Municipalidades,62,23,16331391424.0,31.1141,80.9848,1345.6242
+DNCP-SICP-CODE-378,Universidad Politécnica Taiwán – Paraguay (UPTP),Universidades Nacionales,80,55,15875918699.0,25.4339,77.9446,1069.4299
+DNCP-SICP-CODE-194,Municipalidad de Ybycui,Municipalidades,141,38,15601081018.0,11.8491,66.5758,584.7528
+DNCP-SICP-CODE-143,Municipalidad de General Delgado,Municipalidades,90,29,15582571956.0,14.4813,80.9433,773.7085
+DNCP-SICP-CODE-257,Municipalidad de Escobar,Municipalidades,98,29,15518248483.0,29.2768,87.3221,1386.3086
+DNCP-SICP-CODE-274,Municipalidad de Itacurubí de las Cordilleras,Municipalidades,85,28,15013822000.0,15.3746,70.0838,678.6353
+DNCP-SICP-CODE-175,Municipalidad de Nueva Alborada,Municipalidades,69,38,14953553639.0,14.9763,73.1784,711.4984
+DNCP-SICP-CODE-367,Municipalidad de Maracaná,Municipalidades,61,31,14807031668.0,19.7204,75.0932,811.334
+DNCP-SICP-CODE-283,Municipalidad de Santa Elena,Municipalidades,72,30,14777036695.0,14.5636,73.2839,714.4625
+DNCP-SICP-CODE-177,Municipalidad de Sapucai,Municipalidades,83,32,14548039482.0,14.8666,78.5378,793.2857
+DNCP-SICP-CODE-273,Municipalidad de Isla Pucú,Municipalidades,123,46,14516761076.0,15.6558,72.991,758.0704
+DNCP-SICP-CODE-344,Municipalidad de Zanja Pyta,Municipalidades,93,28,14395597212.0,34.0943,81.2991,1533.5056
+DNCP-SICP-CODE-252,Municipalidad de Guajayvi,Municipalidades,87,41,14260931405.0,15.315,71.5307,729.061
+DNCP-SICP-CODE-182,Municipalidad de Capitán Bado,Municipalidades,53,23,13909460102.0,27.6954,81.0265,1234.7567
+DNCP-SICP-CODE-58,Municipalidad de Juan Manuel Frutos,Municipalidades,89,42,13374572264.0,33.8764,78.0443,1552.079
+DNCP-SICP-CODE-380,Municipalidad de Boquerón,Municipalidades,47,23,13286732877.0,15.0729,77.7969,793.1697
+DNCP-SICP-CODE-97,Municipalidad de San Joaquín,Municipalidades,81,36,13194329146.0,17.3946,75.0918,756.3492
+DNCP-SICP-CODE-84,Municipalidad de Simón Bolivar,Municipalidades,101,27,12995804940.0,34.3209,89.5785,1762.0338
+DNCP-SICP-CODE-94,Municipalidad de Buena Vista,Municipalidades,61,30,12943577884.0,17.8465,72.0305,742.0964
+DNCP-SICP-CODE-192,Municipalidad de Tebicuarymi,Municipalidades,97,25,12900104239.0,26.9208,83.973,1388.7846
+DNCP-SICP-CODE-293,Municipalidad de Itapé,Municipalidades,58,17,12559994476.0,35.2761,96.0772,1845.9328
+DNCP-SICP-CODE-251,Municipalidad de Gral. Francisco I. Resquin,Municipalidades,105,38,12052041695.0,28.1877,75.0571,1124.1261
+DNCP-SICP-CODE-330,Municipalidad de Tte Esteban Martinez,Municipalidades,70,34,11984183652.0,21.6301,72.7576,825.9373
+DNCP-SICP-CODE-349,Municipalidad de 3 de Mayo,Municipalidades,59,35,11926116907.0,19.6056,66.7777,766.1794
+DNCP-SICP-CODE-136,Comisión Nacional de Valores (CNV),Entes Autónomos y Autárquicos,271,127,11787730871.0,46.9344,73.4317,2303.1137
+DNCP-SICP-CODE-54,Municipalidad de Carayaó,Municipalidades,24,13,11612179035.0,55.3704,97.1695,3375.0458
+DNCP-SICP-CODE-158,Caja de Seguridad Social de Empleados y Obreros Ferroviarios (CAJ.FERROV),Entidades Públicas de Seguridad Social,51,14,11503318590.0,49.1835,99.8777,3608.7214
+DNCP-SICP-CODE-264,Municipalidad de Yataity del Norte,Municipalidades,49,19,11447444552.0,16.5976,84.6311,956.4423
+DNCP-SICP-CODE-327,Municipalidad de Tebicuary,Municipalidades,70,40,11315790339.0,12.5509,69.161,630.0668
+DNCP-SICP-CODE-113,Municipalidad de Tavaí,Municipalidades,66,33,11254355046.0,16.3636,81.6886,881.9064
+DNCP-SICP-CODE-93,Municipalidad de Avaí,Municipalidades,42,29,10816641148.0,19.0736,85.3991,1010.7033
+DNCP-SICP-CODE-275,Municipalidad de Juan de Mena,Municipalidades,80,30,10525183852.0,42.6366,85.3396,2071.3547
+DNCP-SICP-CODE-195,Municipalidad de Ybytimi,Municipalidades,69,27,10014883854.0,16.6525,77.522,863.1253
+DNCP-SICP-CODE-228,Municipalidad de Acahay,Municipalidades,51,29,10007799228.0,15.4139,76.284,788.3402
+DNCP-SICP-CODE-353,Secretaria de Defensa del Consumidor y el Usuario (SEDECO),Entes Autónomos y Autárquicos,152,81,9977946331.0,42.6404,72.8812,1958.292
+DNCP-SICP-CODE-290,Municipalidad de Félix Pérez Cardozo,Municipalidades,60,28,9878557138.0,20.2836,80.5566,912.485
+DNCP-SICP-CODE-56,Municipalidad de Dr. Cecilio Báez,Municipalidades,51,13,9793648465.0,45.3188,98.8808,2744.9003
+DNCP-SICP-CODE-75,Municipalidad de la Colmena,Municipalidades,82,25,9782071943.0,13.7575,86.2406,873.713
+DNCP-SICP-CODE-71,Municipalidad de Nueva Londres,Municipalidades,78,37,9747918402.0,17.2059,65.0501,761.7899
+DNCP-SICP-CODE-388,Municipalidad de Nueva Asunción,Municipalidades,39,17,9697230092.0,33.1311,94.1392,1722.3704
+DNCP-SICP-CODE-8,Municipalidad de Nanawa,Municipalidades,48,19,9690983321.0,25.4153,87.7271,1348.8931
+DNCP-SICP-CODE-165,Municipalidad de Villa Franca,Municipalidades,32,14,9440753557.0,33.2559,98.2336,2136.7319
+DNCP-SICP-CODE-246,Municipalidad de 25 de Diciembre,Municipalidades,75,33,9393115535.0,13.557,77.1684,761.6168
+DNCP-SICP-CODE-247,Municipalidad de Antequera,Municipalidades,63,24,9078172997.0,31.1752,86.4064,1445.3237
+DNCP-SICP-CODE-373,"Instituto Nacional de Educación Superior ""Dr. Raul Peña"" (INAES)",Entes Autónomos y Autárquicos,81,49,8996625880.0,20.2763,78.5837,951.308
+DNCP-SICP-CODE-280,Municipalidad de Primero de Marzo,Municipalidades,84,31,8863878619.0,20.3685,78.1704,899.5678
+DNCP-SICP-CODE-364,Municipalidad de Karapai,Municipalidades,49,11,8854822820.0,50.4775,99.3224,3095.8464
+DNCP-SICP-CODE-109,Municipalidad de Moisés Bertoni,Municipalidades,24,10,8527130615.0,29.1341,100.0,1751.5779
+DNCP-SICP-CODE-219,Municipalidad de Villa Florida,Municipalidades,54,30,8363577742.0,17.0187,71.8238,733.3703
+DNCP-SICP-CODE-361,Municipalidad de Sargento Jóse Félix López,Municipalidades,38,9,8356781411.0,34.6487,100.0,2291.2318
+DNCP-SICP-CODE-148,Municipalidad de Gral. José Eduvigis Díaz,Municipalidades,94,26,8210030461.0,28.2005,81.9663,1205.9272
+DNCP-SICP-CODE-245,Municipalidad de Yby Yaú,Municipalidades,62,32,8166560959.0,14.4825,70.5483,685.6867
+DNCP-SICP-CODE-383,Municipalidad de Campo Aceval,Municipalidades,37,18,8128184949.0,32.1802,90.5981,1564.4412
+DNCP-SICP-CODE-346,Municipalidad de Nueva Toledo,Municipalidades,37,15,8110244366.0,23.1816,96.6832,1489.6598
+DNCP-SICP-CODE-60,Municipalidad de la Pastora,Municipalidades,50,22,8062013601.0,16.1552,83.656,884.8502
+DNCP-SICP-CODE-130,Municipalidad de Capitán Meza,Municipalidades,22,13,8030467126.0,32.8026,96.3346,1811.7602
+DNCP-SICP-CODE-262,Municipalidad de Unión,Municipalidades,60,16,7954058262.0,27.3181,93.0025,1735.8125
+DNCP-SICP-CODE-343,Municipalidad de Liberacion,Municipalidades,22,18,7767938893.0,20.855,91.7604,1288.6308
+DNCP-SICP-CODE-227,Municipalidad de Yabebyry,Municipalidades,27,16,7640598287.0,33.5935,95.1247,1671.8511
+DNCP-SICP-CODE-348,Comisión Nac. de Prevención contra la Tortura y Otros Tratos,Defensoría del Pueblo,163,94,7470975169.0,38.3886,73.7742,1663.6137
+DNCP-SICP-CODE-35,Municipalidad de Paso Yobai,Municipalidades,25,16,7270137326.0,15.1276,88.7839,985.1494
+DNCP-SICP-CODE-385,Municipalidad de Paso Horqueta,Municipalidades,34,18,7261184398.0,51.3277,91.5715,2851.9879
+DNCP-SICP-CODE-277,Municipalidad de Mbocayaty del Yhaguy,Municipalidades,51,28,7186872332.0,21.7449,76.1929,884.3714
+DNCP-SICP-CODE-291,Municipalidad de Gral. Eugenio A. Garay,Municipalidades,42,21,7160025840.0,27.5008,85.0134,1207.3103
+DNCP-SICP-CODE-146,Municipalidad de Cerrito,Municipalidades,36,19,7121765957.0,24.9938,89.2939,1164.1527
+DNCP-SICP-CODE-85,Municipalidad de Vaquería,Municipalidades,57,23,7100829429.0,32.1621,83.128,1398.0762
+DNCP-SICP-CODE-319,Municipalidad de Bahía Negra,Municipalidades,19,13,6833816108.0,34.4746,98.1422,1792.2887
+DNCP-SICP-CODE-15,Municipalidad de Fuerte Olimpo,Municipalidades,54,34,6416816824.0,13.4023,63.1263,553.1264
+DNCP-SICP-CODE-292,Municipalidad de Independencia,Municipalidades,35,19,6400281513.0,27.9715,90.78,1596.5213
+DNCP-SICP-CODE-125,Fondo Nacional de la Cultura y las Artes (FONDEC),Entes Autónomos y Autárquicos,223,112,6112561028.0,23.5863,66.7889,903.7807
+DNCP-SICP-CODE-295,Municipalidad de José Fassardi,Municipalidades,22,9,5909618217.0,56.0276,100.0,3574.3762
+DNCP-SICP-CODE-377,"Dirección Nacional de Defensa, Salud y Bienestar Animal (DNDSBA)",Entes Autónomos y Autárquicos,82,39,5459144767.0,35.0518,75.9583,1465.3753
+DNCP-SICP-CODE-111,Municipalidad de Maciel,Municipalidades,31,21,5414380106.0,22.9067,85.839,1204.0453
+DNCP-SICP-CODE-288,Municipalidad de Coronel Martínez,Municipalidades,30,14,5382472432.0,21.4585,90.8903,1110.4939
+DNCP-SICP-CODE-249,Municipalidad de Choré,Municipalidades,30,20,5327469583.0,43.9795,83.3067,2157.3481
+DNCP-SICP-CODE-310,Municipalidad de San Roque González de Santa Cruz,Municipalidades,17,9,5158581829.0,42.7637,100.0,2499.5294
+DNCP-SICP-CODE-357,Municipalidad de San Alfredo,Municipalidades,29,9,4964652812.0,31.1681,100.0,2136.5365
+DNCP-SICP-CODE-294,Municipalidad de Iturbe,Municipalidades,38,25,4820692699.0,13.6524,77.9588,769.7677
+DNCP-SICP-CODE-356,Municipalidad de Yby Pyta,Municipalidades,30,11,4638939832.0,25.1069,98.1038,1464.2077
+DNCP-SICP-CODE-258,Municipalidad de San Pablo,Municipalidades,31,18,4616530934.0,18.9429,83.7994,1070.3194
+DNCP-SICP-CODE-289,Municipalidad de Dr. Bottrell,Municipalidades,30,12,4609013848.0,26.1043,99.6904,1695.5617
+DNCP-SICP-CODE-365,Municipalidad de Maria Antonia,Municipalidades,38,20,4505322418.0,21.6306,81.9382,993.2029
+DNCP-SICP-CODE-389,Universidad Nacional de Misiones (UNAMIS),Universidades Nacionales,31,17,4491355361.0,68.056,97.6269,4812.214
+DNCP-SICP-CODE-180,Municipalidad de Bella Vista - Amambay,Municipalidades,10,6,4347058940.0,33.3554,100.0,2394.1975
+DNCP-SICP-CODE-381,Municipalidad de Cerro Cora,Municipalidades,10,8,4303893708.0,53.5562,100.0,3336.7259
+DNCP-SICP-CODE-147,Municipalidad de Desmochados,Municipalidades,26,16,4290695998.0,16.5216,89.0852,1074.5297
+DNCP-SICP-CODE-370,Secretaría Nacional de Inteligencia (SNI),Entes Autónomos y Autárquicos,32,21,4261599933.0,20.2741,93.6697,1433.0914
+DNCP-SICP-CODE-36,Municipalidad de San Salvador,Municipalidades,32,21,3934673309.0,14.5328,82.3643,855.9932
+DNCP-SICP-CODE-52,Municipalidad de 3 de Febrero,Municipalidades,39,19,3874028569.0,30.1368,85.4222,1343.2223
+DNCP-SICP-CODE-110,Municipalidad de Gral. Higinio Morínigo,Municipalidades,22,17,3810216059.0,19.3692,86.3451,972.6423
+DNCP-SICP-CODE-286,Municipalidad de Borja,Municipalidades,20,12,3561760027.0,27.3956,95.9009,1518.4001
+DNCP-SICP-CODE-38,Municipalidad de Yataity del Guairá,Municipalidades,22,15,3500226889.0,39.0518,96.7059,2136.1447
+DNCP-SICP-CODE-363,Autoridad Reguladora Radiologica y Nuclear (ARRN),Entes Autónomos y Autárquicos,82,57,3355483910.0,11.9804,67.6594,579.3917
+DNCP-SICP-CODE-285,Municipalidad de Valenzuela,Municipalidades,17,10,3289020483.0,23.0379,100.0,1510.4192
+DNCP-SICP-CODE-164,Municipalidad de Tacuaras,Municipalidades,21,14,3272067345.0,42.964,98.6217,3008.6482
+DNCP-SICP-CODE-72,Municipalidad de R.I. 3 Corrales,Municipalidades,32,17,3220909482.0,18.5363,87.3745,997.4057
+DNCP-SICP-CODE-240,Municipalidad de Belén,Municipalidades,12,7,3083760719.0,44.2102,100.0,3303.5723
+DNCP-SICP-CODE-254,Municipalidad de Lima,Municipalidades,27,10,3052093840.0,29.7179,100.0,1779.7359
+DNCP-SICP-CODE-149,Municipalidad de Guazu Cuá,Municipalidades,14,6,2995957362.0,55.4764,100.0,4075.5681
+DNCP-SICP-CODE-156,Municipalidad de San Juan Bautista Ñeembucu,Municipalidades,14,10,2926381981.0,29.4652,100.0,1903.4179
+DNCP-SICP-CODE-362,Comisión Nacional de Competencia (CONACOM),Entes Autónomos y Autárquicos,79,49,2909461560.0,12.889,71.2829,660.3822
+DNCP-SICP-CODE-350,Municipalidad de Ybyrarobana,Municipalidades,12,10,2825329500.0,57.3384,100.0,3542.1226
+DNCP-SICP-CODE-341,Municipalidad de Azotey,Municipalidades,10,4,2820251338.0,38.4789,100.0,3036.682
+DNCP-SICP-CODE-374,Instituto Superior de Bellas Artes (ISBA),Entes Autónomos y Autárquicos,51,40,2578680561.0,8.917,55.56,434.3101
+DNCP-SICP-CODE-261,Municipalidad de Tacuatí,Municipalidades,26,12,2539762822.0,24.0198,97.2726,1571.2307
+DNCP-SICP-CODE-168,Municipalidad de Villalbín,Municipalidades,18,10,2479716339.0,24.7972,100.0,1652.4697
+DNCP-SICP-CODE-139,Secretaría de Transporte Área Metropolitana de Asuncion (SETAMA),Entes Autónomos y Autárquicos,43,32,2275795701.0,20.3119,72.9214,841.9733
+DNCP-SICP-CODE-166,Municipalidad de Villa Oliva,Municipalidades,14,10,2226935089.0,29.3803,100.0,1726.6126
+DNCP-SICP-CODE-287,Municipalidad de Mauricio José Troche,Municipalidades,4,4,2076692592.0,36.9907,100.0,2759.5332
+DNCP-SICP-CODE-151,Municipalidad de Isla Umbú,Municipalidades,22,18,2037976958.0,25.8712,89.217,1272.2139
+DNCP-SICP-CODE-366,Municipalidad de San Vicente Pancholo,Municipalidades,8,8,2018229938.0,38.8955,100.0,2154.4701
+DNCP-SICP-CODE-16,Municipalidad de Puerto Casado,Municipalidades,8,4,1842699739.0,82.7317,100.0,6958.8799
+DNCP-SICP-CODE-154,Municipalidad de Paso de Patria,Municipalidades,17,11,1830714900.0,25.8186,99.5393,1467.7479
+DNCP-SICP-CODE-152,Municipalidad de Laureles,Municipalidades,11,10,1756076250.0,28.1878,100.0,1810.0099
+DNCP-SICP-CODE-150,Municipalidad de Humaitá,Municipalidades,17,9,1715500829.0,32.3543,100.0,1972.5714
+DNCP-SICP-CODE-153,Municipalidad de Mayor José D. Martinez,Municipalidades,13,9,1579580806.0,23.5866,100.0,1591.2489
+DNCP-SICP-CODE-369,Municipalidad de Arroyito,Municipalidades,6,6,1453194891.0,26.0309,100.0,2021.5739
+DNCP-SICP-CODE-29,Municipalidad de Quyquyho,Municipalidades,14,5,1450096600.0,41.2763,100.0,2705.7949
+DNCP-SICP-CODE-34,Municipalidad de Ñumi,Municipalidades,8,4,1362053090.0,73.0875,100.0,5700.192
+DNCP-SICP-CODE-215,Municipalidad de San Patricio,Municipalidades,2,2,1330312186.0,85.9435,100.0,7583.8725
+DNCP-SICP-CODE-103,Municipalidad de Alberdi,Municipalidades,5,2,1305034040.0,58.1977,100.0,5134.4051
+DNCP-SICP-CODE-33,Municipalidad de Natalicio Talavera,Municipalidades,7,4,1285669000.0,35.779,100.0,2710.5733
+DNCP-SICP-CODE-296,Municipalidad de Mbocayaty del Guairá,Municipalidades,9,6,1258497177.0,48.6235,100.0,3438.2363
+DNCP-SICP-CODE-255,Municipalidad de Nueva Germania,Municipalidades,13,9,1154931500.0,28.4637,100.0,2055.3795
+DNCP-SICP-CODE-329,Municipalidad de San Carlos del Apa,Municipalidades,4,3,887586000.0,54.0344,100.0,4067.5045
+DNCP-SICP-CODE-387,Municipalidad de Itacua,Municipalidades,1,1,574897500.0,100.0,100.0,10000.0
+DNCP-SICP-CODE-386,Instituto Nacional del Audiovisual Paraguayo (INAP),Entes Autónomos y Autárquicos,20,16,480187296.0,19.016,85.7476,995.2863
+DNCP-SICP-CODE-384,Municipalidad de San Jose Del Rosario,Municipalidades,1,1,209969200.0,100.0,100.0,10000.0
+DNCP-SICP-CODE-222,Caja de Préstamos del Ministerio de Defensa Nacional (CAJA MDN),Entidades Financieras Oficiales,7,6,128769096.0,38.8662,100.0,2385.4158
+DNCP-SICP-CODE-382,Municipalidad de Laurel,Municipalidades,1,1,68517480.0,100.0,100.0,10000.0
+DNCP-SICP-CODE-308,Dirección Nacional de Aduanas (DNA),Entes Autónomos y Autárquicos,1,1,12250242.0,100.0,100.0,10000.0

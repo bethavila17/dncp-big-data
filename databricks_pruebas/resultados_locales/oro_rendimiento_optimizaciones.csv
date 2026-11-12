@@ -1,0 +1,5 @@
+﻿optimizacion,tiempo_antes_s,tiempo_despues_s,mejora_pct,plan_antes,plan_despues
+A · P7 búsqueda de texto,0.767,0.788,-2.7,1 lectura(s); 1 shuffle(s); poda de particiones: no,1 lectura(s); 1 shuffle(s); poda de particiones: no
+B · procesos de 2025 por modalidad,0.31,0.301,2.9,1 lectura(s); 1 shuffle(s); poda de particiones: no,1 lectura(s); 1 shuffle(s); poda de particiones: no
+C · gasto por tipo de entidad (join),0.152,5.007,-3194.1,2 lectura(s); 3 shuffle(s); join: SortMergeJoin; poda de particiones: no,2 lectura(s); 1 shuffle(s); join: BroadcastHashJoin; poda de particiones: no
+D · contratos de un RUC,0.025,0.04,-60.0,1 lectura(s); 2 shuffle(s); poda de particiones: no,1 lectura(s); 2 shuffle(s); poda de particiones: no

@@ -1,0 +1,2400 @@
+{
+  "datasets": [
+    {
+      "name": "kpi",
+      "displayName": "kpi",
+      "queryLines": [
+        "SELECT (SELECT SUM(llamados) FROM workspace.dncp.oro_p1_anio)                                         AS llamados,\n",
+        "       (SELECT ROUND(SUM(monto_billones_pyg), 1) FROM workspace.dncp.oro_p1_anio)                     AS monto_billones,\n",
+        "       (SELECT ROUND(100 * SUM(una_sola_oferta) / SUM(llamados_con_oferta), 1) FROM workspace.dncp.oro_p2_anio) AS pct_una_oferta\n"
+      ]
+    },
+    {
+      "name": "p1_anio",
+      "displayName": "p1_anio",
+      "queryLines": [
+        "SELECT anio, llamados, solo_planificacion, adjudicaciones, contratos, monto_billones_pyg\n",
+        "FROM workspace.dncp.oro_p1_anio\n",
+        "WHERE anio BETWEEN '2011' AND '2025'\n",
+        "ORDER BY anio\n"
+      ]
+    },
+    {
+      "name": "p2_tipo",
+      "displayName": "p2_tipo",
+      "queryLines": [
+        "SELECT tipo_entidad, pct_una_oferta, llamados_con_oferta FROM workspace.dncp.oro_p2_tipo_entidad ORDER BY pct_una_oferta DESC\n"
+      ]
+    },
+    {
+      "name": "p2_modalidad",
+      "displayName": "p2_modalidad",
+      "queryLines": [
+        "SELECT modalidad, pct_una_oferta, llamados_con_oferta FROM workspace.dncp.oro_p2_modalidad\n",
+        "WHERE llamados_con_oferta >= 1000 ORDER BY pct_una_oferta DESC\n"
+      ]
+    },
+    {
+      "name": "p3_resumen",
+      "displayName": "p3_resumen",
+      "queryLines": [
+        "SELECT procesos, mediana, pct_sobre_estimado, pct_sobre_10, pct_bajo_10 FROM workspace.dncp.oro_p3_resumen\n"
+      ]
+    },
+    {
+      "name": "p3_categoria",
+      "displayName": "p3_categoria",
+      "queryLines": [
+        "SELECT categoria, pct_sobre_10, mediana, procesos FROM workspace.dncp.oro_p3_categoria\n",
+        "ORDER BY pct_sobre_10 DESC LIMIT 10\n"
+      ]
+    },
+    {
+      "name": "p4_top",
+      "displayName": "p4_top",
+      "queryLines": [
+        "SELECT proveedor, ruc, contratos, entidades, monto_miles_millones_pyg\n",
+        "FROM workspace.dncp.oro_p4_top_proveedores ORDER BY monto_miles_millones_pyg DESC LIMIT 20\n"
+      ]
+    },
+    {
+      "name": "p4_ruc",
+      "displayName": "p4_ruc",
+      "queryLines": [
+        "SELECT CAST(fecha_firma AS STRING) AS fecha_firma, entidad, modalidad, monto, moneda, contrato_id\n",
+        "FROM workspace.dncp.oro_p4_contratos_ruc ORDER BY monto DESC\n"
+      ]
+    },
+    {
+      "name": "p5_niveles",
+      "displayName": "p5_niveles",
+      "queryLines": [
+        "SELECT nivel_hhi, entidades, cuota_top10_mediana FROM workspace.dncp.oro_p5_niveles_hhi ORDER BY nivel_hhi\n"
+      ]
+    },
+    {
+      "name": "p5_entidades",
+      "displayName": "p5_entidades",
+      "queryLines": [
+        "SELECT entidad, tipo_entidad, adjudicaciones, proveedores, cuota_top1, cuota_top10, hhi\n",
+        "FROM workspace.dncp.oro_p5_entidades WHERE adjudicaciones >= 20\n",
+        "ORDER BY monto_miles_millones_pyg DESC LIMIT 15\n"
+      ]
+    },
+    {
+      "name": "p6_modalidad",
+      "displayName": "p6_modalidad",
+      "queryLines": [
+        "SELECT modalidad, mediana, procesos FROM workspace.dncp.oro_p6_dias_modalidad ORDER BY procesos DESC LIMIT 8\n"
+      ]
+    },
+    {
+      "name": "p6_tramos",
+      "displayName": "p6_tramos",
+      "queryLines": [
+        "SELECT tramo_dias, pct_una_oferta, oferentes_promedio, llamados FROM workspace.dncp.oro_p6_tramos ORDER BY tramo_dias\n"
+      ]
+    },
+    {
+      "name": "p7_resumen",
+      "displayName": "p7_resumen",
+      "queryLines": [
+        "SELECT grupo, metodo, monto_billones_pyg, items FROM workspace.dncp.oro_p7_resumen\n"
+      ]
+    },
+    {
+      "name": "p7_entidades",
+      "displayName": "p7_entidades",
+      "queryLines": [
+        "SELECT grupo, puesto, entidad, monto_billones_pyg, cuota_pct FROM workspace.dncp.oro_p7_top_entidades ORDER BY grupo, puesto\n"
+      ]
+    },
+    {
+      "name": "rend_opt",
+      "displayName": "rend_opt",
+      "queryLines": [
+        "SELECT optimizacion, tiempo_antes_s, tiempo_despues_s, mejora_pct, plan_antes, plan_despues\n",
+        "FROM workspace.dncp.oro_rendimiento_optimizaciones ORDER BY optimizacion\n"
+      ]
+    },
+    {
+      "name": "rend_consultas",
+      "displayName": "rend_consultas",
+      "queryLines": [
+        "SELECT consulta, tiempo_1_s, tiempo_2_s, filas_resultado, resumen_plan\n",
+        "FROM workspace.dncp.oro_rendimiento_consultas WHERE etapa = 'consulta'\n"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "avance1",
+      "displayName": "Avance 1 · DNCP",
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layout": [
+        {
+          "widget": {
+            "name": "txt0001",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# Contrataciones públicas de la DNCP, 2011-2026"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0002",
+            "multilineTextboxSpec": {
+              "lines": [
+                "Avance 1 · Pipeline en Databricks (bronce, plata, oro) · Datos OCDS del OCP Data Registry"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 1,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0003",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "kpi",
+                  "fields": [
+                    {
+                      "name": "sum(llamados)",
+                      "expression": "SUM(`llamados`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(llamados)",
+                  "displayName": "Llamados"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Llamados publicados"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0004",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "kpi",
+                  "fields": [
+                    {
+                      "name": "sum(pct_una_oferta)",
+                      "expression": "SUM(`pct_una_oferta`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(pct_una_oferta)",
+                  "displayName": "%"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% de llamados con una sola oferta"
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 2,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0005",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "kpi",
+                  "fields": [
+                    {
+                      "name": "sum(monto_billones)",
+                      "expression": "SUM(`monto_billones`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(monto_billones)",
+                  "displayName": "Billones PYG"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Monto adjudicado (billones de PYG)"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 2,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0006",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P1 · Procesos, adjudicaciones, contratos y monto adjudicado por año"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 4,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0007",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p1_anio",
+                  "fields": [
+                    {
+                      "name": "anio",
+                      "expression": "`anio`"
+                    },
+                    {
+                      "name": "sum(llamados)",
+                      "expression": "SUM(`llamados`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "anio",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Año",
+                  "axis": {
+                    "title": "Año"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(llamados)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Llamados",
+                  "axis": {
+                    "title": "Llamados"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Llamados publicados por año"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0008",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p1_anio",
+                  "fields": [
+                    {
+                      "name": "anio",
+                      "expression": "`anio`"
+                    },
+                    {
+                      "name": "sum(monto_billones_pyg)",
+                      "expression": "SUM(`monto_billones_pyg`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "anio",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Año",
+                  "axis": {
+                    "title": "Año"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(monto_billones_pyg)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Billones PYG",
+                  "axis": {
+                    "title": "Billones PYG"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Monto adjudicado por año (billones de PYG)"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0009",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P2 · Llamados con una sola oferta"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 10,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0010",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p2_tipo",
+                  "fields": [
+                    {
+                      "name": "tipo_entidad",
+                      "expression": "`tipo_entidad`"
+                    },
+                    {
+                      "name": "sum(pct_una_oferta)",
+                      "expression": "SUM(`pct_una_oferta`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(pct_una_oferta)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% una sola oferta",
+                  "axis": {
+                    "title": "% una sola oferta"
+                  }
+                },
+                "y": {
+                  "fieldName": "tipo_entidad",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Tipo de entidad",
+                  "axis": {
+                    "title": "Tipo de entidad"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% con una sola oferta por tipo de entidad"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 11,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0011",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p2_modalidad",
+                  "fields": [
+                    {
+                      "name": "modalidad",
+                      "expression": "`modalidad`"
+                    },
+                    {
+                      "name": "sum(pct_una_oferta)",
+                      "expression": "SUM(`pct_una_oferta`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(pct_una_oferta)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% una sola oferta",
+                  "axis": {
+                    "title": "% una sola oferta"
+                  }
+                },
+                "y": {
+                  "fieldName": "modalidad",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Modalidad",
+                  "axis": {
+                    "title": "Modalidad"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% con una sola oferta por modalidad (1.000 llamados o más)"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 11,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0012",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P3 · Desvío entre el monto estimado y el adjudicado"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0013",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p3_resumen",
+                  "fields": [
+                    {
+                      "name": "sum(mediana)",
+                      "expression": "SUM(`mediana`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(mediana)",
+                  "displayName": "%"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Desvío mediano (%)"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 18,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0014",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p3_resumen",
+                  "fields": [
+                    {
+                      "name": "sum(pct_sobre_estimado)",
+                      "expression": "SUM(`pct_sobre_estimado`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(pct_sobre_estimado)",
+                  "displayName": "%"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% adjudicados por encima del estimado"
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 18,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi0015",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p3_resumen",
+                  "fields": [
+                    {
+                      "name": "sum(pct_sobre_10)",
+                      "expression": "SUM(`pct_sobre_10`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(pct_sobre_10)",
+                  "displayName": "%"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% más de 10% por encima del estimado"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 18,
+            "width": 2,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0016",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p3_categoria",
+                  "fields": [
+                    {
+                      "name": "categoria",
+                      "expression": "`categoria`"
+                    },
+                    {
+                      "name": "sum(pct_sobre_10)",
+                      "expression": "SUM(`pct_sobre_10`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(pct_sobre_10)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% de procesos con desvío > +10%",
+                  "axis": {
+                    "title": "% de procesos con desvío > +10%"
+                  }
+                },
+                "y": {
+                  "fieldName": "categoria",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Categoría",
+                  "axis": {
+                    "title": "Categoría"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Categorías con más procesos adjudicados más de 10% sobre el estimado"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 20,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0017",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P4 · Contratos por proveedor (RUC)"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 26,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0018",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p4_top",
+                  "fields": [
+                    {
+                      "name": "proveedor",
+                      "expression": "`proveedor`"
+                    },
+                    {
+                      "name": "ruc",
+                      "expression": "`ruc`"
+                    },
+                    {
+                      "name": "contratos",
+                      "expression": "`contratos`"
+                    },
+                    {
+                      "name": "entidades",
+                      "expression": "`entidades`"
+                    },
+                    {
+                      "name": "monto_miles_millones_pyg",
+                      "expression": "`monto_miles_millones_pyg`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "proveedor",
+                    "fieldName": "proveedor",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Proveedor",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "ruc",
+                    "fieldName": "ruc",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "RUC",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "contratos",
+                    "fieldName": "contratos",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "Contratos",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "entidades",
+                    "fieldName": "entidades",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Entidades",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "monto_miles_millones_pyg",
+                    "fieldName": "monto_miles_millones_pyg",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "Miles de millones PYG",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Los 20 proveedores con mayor monto contratado"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 27,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0019",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p4_ruc",
+                  "fields": [
+                    {
+                      "name": "fecha_firma",
+                      "expression": "`fecha_firma`"
+                    },
+                    {
+                      "name": "entidad",
+                      "expression": "`entidad`"
+                    },
+                    {
+                      "name": "modalidad",
+                      "expression": "`modalidad`"
+                    },
+                    {
+                      "name": "monto",
+                      "expression": "`monto`"
+                    },
+                    {
+                      "name": "moneda",
+                      "expression": "`moneda`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "fecha_firma",
+                    "fieldName": "fecha_firma",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Firma",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "entidad",
+                    "fieldName": "entidad",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "Entidad",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "modalidad",
+                    "fieldName": "modalidad",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "Modalidad",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "monto",
+                    "fieldName": "monto",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Monto",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "moneda",
+                    "fieldName": "moneda",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "Moneda",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Contratos del RUC consultado (widget del notebook 03)"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 27,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0020",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P5 · Concentración de proveedores: top 10 e índice Herfindahl-Hirschman"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 34,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0021",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p5_niveles",
+                  "fields": [
+                    {
+                      "name": "nivel_hhi",
+                      "expression": "`nivel_hhi`"
+                    },
+                    {
+                      "name": "sum(entidades)",
+                      "expression": "SUM(`entidades`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "nivel_hhi",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Nivel HHI",
+                  "axis": {
+                    "title": "Nivel HHI"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(entidades)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Entidades",
+                  "axis": {
+                    "title": "Entidades"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Entidades por nivel de concentración (HHI)"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 35,
+            "width": 2,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0022",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p5_entidades",
+                  "fields": [
+                    {
+                      "name": "entidad",
+                      "expression": "`entidad`"
+                    },
+                    {
+                      "name": "tipo_entidad",
+                      "expression": "`tipo_entidad`"
+                    },
+                    {
+                      "name": "adjudicaciones",
+                      "expression": "`adjudicaciones`"
+                    },
+                    {
+                      "name": "proveedores",
+                      "expression": "`proveedores`"
+                    },
+                    {
+                      "name": "cuota_top1",
+                      "expression": "`cuota_top1`"
+                    },
+                    {
+                      "name": "cuota_top10",
+                      "expression": "`cuota_top10`"
+                    },
+                    {
+                      "name": "hhi",
+                      "expression": "`hhi`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "entidad",
+                    "fieldName": "entidad",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Entidad",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "tipo_entidad",
+                    "fieldName": "tipo_entidad",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "Tipo",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "adjudicaciones",
+                    "fieldName": "adjudicaciones",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "Adjudic.",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "proveedores",
+                    "fieldName": "proveedores",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Proveed.",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "cuota_top1",
+                    "fieldName": "cuota_top1",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "Top 1 %",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "cuota_top10",
+                    "fieldName": "cuota_top10",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100005,
+                    "preserveWhitespace": false,
+                    "title": "Top 10 %",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "hhi",
+                    "fieldName": "hhi",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100006,
+                    "preserveWhitespace": false,
+                    "title": "HHI",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Concentración en las 15 entidades con mayor monto adjudicado"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 35,
+            "width": 4,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0023",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P6 · Plazo de convocatoria y cantidad de oferentes"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 41,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0024",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p6_modalidad",
+                  "fields": [
+                    {
+                      "name": "modalidad",
+                      "expression": "`modalidad`"
+                    },
+                    {
+                      "name": "sum(mediana)",
+                      "expression": "SUM(`mediana`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(mediana)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Días (mediana)",
+                  "axis": {
+                    "title": "Días (mediana)"
+                  }
+                },
+                "y": {
+                  "fieldName": "modalidad",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Modalidad",
+                  "axis": {
+                    "title": "Modalidad"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Días de convocatoria (mediana) por modalidad"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 42,
+            "width": 3,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0025",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p6_tramos",
+                  "fields": [
+                    {
+                      "name": "tramo_dias",
+                      "expression": "`tramo_dias`"
+                    },
+                    {
+                      "name": "sum(pct_una_oferta)",
+                      "expression": "SUM(`pct_una_oferta`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "tramo_dias",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Días de convocatoria",
+                  "axis": {
+                    "title": "Días de convocatoria"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(pct_una_oferta)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "% una sola oferta",
+                  "axis": {
+                    "title": "% una sola oferta"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% de llamados con una sola oferta según los días de convocatoria"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 42,
+            "width": 3,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0026",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## P7 · ¿Qué se compra? Búsqueda por texto frente a clasificación del catálogo"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 47,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "bar0027",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p7_resumen",
+                  "fields": [
+                    {
+                      "name": "grupo",
+                      "expression": "`grupo`"
+                    },
+                    {
+                      "name": "sum(monto_billones_pyg)",
+                      "expression": "SUM(`monto_billones_pyg`)"
+                    },
+                    {
+                      "name": "metodo",
+                      "expression": "`metodo`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "grupo",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Grupo",
+                  "axis": {
+                    "title": "Grupo"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(monto_billones_pyg)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Billones PYG",
+                  "axis": {
+                    "title": "Billones PYG"
+                  }
+                },
+                "label": {
+                  "show": true
+                },
+                "color": {
+                  "fieldName": "metodo",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "Método"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Monto adjudicado por grupo (billones de PYG)"
+              },
+              "mark": {
+                "layout": "group"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 48,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0028",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "p7_entidades",
+                  "fields": [
+                    {
+                      "name": "grupo",
+                      "expression": "`grupo`"
+                    },
+                    {
+                      "name": "puesto",
+                      "expression": "`puesto`"
+                    },
+                    {
+                      "name": "entidad",
+                      "expression": "`entidad`"
+                    },
+                    {
+                      "name": "monto_billones_pyg",
+                      "expression": "`monto_billones_pyg`"
+                    },
+                    {
+                      "name": "cuota_pct",
+                      "expression": "`cuota_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "grupo",
+                    "fieldName": "grupo",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Grupo",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "puesto",
+                    "fieldName": "puesto",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "Puesto",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "entidad",
+                    "fieldName": "entidad",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "Entidad",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "monto_billones_pyg",
+                    "fieldName": "monto_billones_pyg",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Billones PYG",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "cuota_pct",
+                    "fieldName": "cuota_pct",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "% del grupo",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Entidades que concentran el gasto de cada grupo (catálogo)"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 48,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "txt0029",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Rendimiento de las consultas y optimizaciones"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 54,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0030",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "rend_opt",
+                  "fields": [
+                    {
+                      "name": "optimizacion",
+                      "expression": "`optimizacion`"
+                    },
+                    {
+                      "name": "tiempo_antes_s",
+                      "expression": "`tiempo_antes_s`"
+                    },
+                    {
+                      "name": "tiempo_despues_s",
+                      "expression": "`tiempo_despues_s`"
+                    },
+                    {
+                      "name": "mejora_pct",
+                      "expression": "`mejora_pct`"
+                    },
+                    {
+                      "name": "plan_antes",
+                      "expression": "`plan_antes`"
+                    },
+                    {
+                      "name": "plan_despues",
+                      "expression": "`plan_despues`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "optimizacion",
+                    "fieldName": "optimizacion",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Optimización",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "tiempo_antes_s",
+                    "fieldName": "tiempo_antes_s",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "Antes (s)",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "tiempo_despues_s",
+                    "fieldName": "tiempo_despues_s",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "Después (s)",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "mejora_pct",
+                    "fieldName": "mejora_pct",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Mejora %",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "plan_antes",
+                    "fieldName": "plan_antes",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "Plan antes",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "plan_despues",
+                    "fieldName": "plan_despues",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100005,
+                    "preserveWhitespace": false,
+                    "title": "Plan después",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Optimizaciones: tiempo antes y después de cambiar una sola cosa"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 55,
+            "width": 6,
+            "height": 4
+          }
+        },
+        {
+          "widget": {
+            "name": "tab0031",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "rend_consultas",
+                  "fields": [
+                    {
+                      "name": "consulta",
+                      "expression": "`consulta`"
+                    },
+                    {
+                      "name": "tiempo_1_s",
+                      "expression": "`tiempo_1_s`"
+                    },
+                    {
+                      "name": "tiempo_2_s",
+                      "expression": "`tiempo_2_s`"
+                    },
+                    {
+                      "name": "filas_resultado",
+                      "expression": "`filas_resultado`"
+                    },
+                    {
+                      "name": "resumen_plan",
+                      "expression": "`resumen_plan`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "allowHTMLByDefault": false,
+              "condensed": true,
+              "encodings": {
+                "columns": [
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "consulta",
+                    "fieldName": "consulta",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100000,
+                    "preserveWhitespace": false,
+                    "title": "Consulta",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "tiempo_1_s",
+                    "fieldName": "tiempo_1_s",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100001,
+                    "preserveWhitespace": false,
+                    "title": "1ª ejecución (s)",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "tiempo_2_s",
+                    "fieldName": "tiempo_2_s",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0.00",
+                    "order": 100002,
+                    "preserveWhitespace": false,
+                    "title": "2ª ejecución (s)",
+                    "type": "float",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "right",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "number",
+                    "displayName": "filas_resultado",
+                    "fieldName": "filas_resultado",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "numberFormat": "0,0",
+                    "order": 100003,
+                    "preserveWhitespace": false,
+                    "title": "Filas",
+                    "type": "integer",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  },
+                  {
+                    "alignContent": "left",
+                    "allowHTML": false,
+                    "allowSearch": false,
+                    "booleanValues": [
+                      "false",
+                      "true"
+                    ],
+                    "displayAs": "string",
+                    "displayName": "resumen_plan",
+                    "fieldName": "resumen_plan",
+                    "highlightLinks": false,
+                    "imageHeight": "",
+                    "imageTitleTemplate": "{{ @ }}",
+                    "imageUrlTemplate": "{{ @ }}",
+                    "imageWidth": "",
+                    "linkOpenInNewTab": true,
+                    "linkTextTemplate": "{{ @ }}",
+                    "linkTitleTemplate": "{{ @ }}",
+                    "linkUrlTemplate": "{{ @ }}",
+                    "order": 100004,
+                    "preserveWhitespace": false,
+                    "title": "Plan (explain)",
+                    "type": "string",
+                    "useMonospaceFont": false,
+                    "visible": true
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Tiempo de cada consulta (dos ejecuciones) y resumen del plan físico"
+              },
+              "invisibleColumns": [],
+              "itemsPerPage": 25,
+              "paginationSize": "default",
+              "withRowNumber": false
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 59,
+            "width": 6,
+            "height": 7
+          }
+        }
+      ]
+    }
+  ]
+}

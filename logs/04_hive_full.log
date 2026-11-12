@@ -1,0 +1,26 @@
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+  -> resultados\full\hive\p1_anio_modalidad.csv (416 filas)
+   6.7 s
+  -> resultados\full\hive\p2_unica_oferta_modalidad.csv (43 filas)
+   1.6 s
+  -> resultados\full\hive\p2_unica_oferta_tipo_entidad.csv (15 filas)
+   1.4 s
+  -> resultados\full\hive\p2_unica_oferta_anio.csv (17 filas)
+   1.0 s
+  -> resultados\full\hive\p3_desvio_resumen.csv (1 filas)
+   2.6 s
+  -> resultados\full\hive\p3_desvio_categoria.csv (90 filas)
+   4.4 s
+  -> resultados\full\hive\p5_concentracion_entidad.csv (376 filas)
+   6.2 s
+  -> resultados\full\hive\p5_entidades_por_nivel_hhi.csv (3 filas)
+   2.1 s
+  -> resultados\full\hive\p6_dias_modalidad.csv (26 filas)
+   1.4 s
+  -> resultados\full\hive\p6_tramos_dias_oferentes.csv (6 filas)
+   1.5 s
+
+real	0m53.023s
+user	0m0.184s
+sys	0m0.277s

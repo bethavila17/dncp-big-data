@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.jsonl
+*.jsonl.gz
+*.parquet
+
+# Material del curso (del docente): no se publica
+materiales de clase/
+Proyecto final - Avance 1*.pdf
+# Archivos temporales de Word
+~$*
+# Documentos y herramientas de trabajo interno: no se publican
+Avance 1 - documento de entrega.docx
+databricks/LEEME_AVANCE1.md
+databricks_soporte/
+informe/generar_docx.py
+colab/generar_notebook.py

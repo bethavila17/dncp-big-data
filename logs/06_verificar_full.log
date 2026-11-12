@@ -1,0 +1,33 @@
+  -> resultados\full\pandas\p6_spearman.csv (7 filas)
+pregunta                   exportable referencia comparada_con  filas_ref  filas_comp estado detalle
+      P1            p1_anio_modalidad      spark     mapreduce        416         416     OK        
+      P2    p2_unica_oferta_modalidad      spark     mapreduce         43          43     OK        
+      P2 p2_unica_oferta_tipo_entidad      spark     mapreduce         15          15     OK        
+      P2         p2_unica_oferta_anio      spark     mapreduce         17          17     OK        
+      P1            p1_anio_modalidad      spark          hive        416         416     OK        
+      P2    p2_unica_oferta_modalidad      spark          hive         43          43     OK        
+      P2 p2_unica_oferta_tipo_entidad      spark          hive         15          15     OK        
+      P2         p2_unica_oferta_anio      spark          hive         17          17     OK        
+      P3            p3_desvio_resumen      spark          hive          1           1     OK        
+      P3          p3_desvio_categoria      spark          hive         90          90     OK        
+      P5     p5_concentracion_entidad      spark          hive        376         376     OK        
+      P5   p5_entidades_por_nivel_hhi      spark          hive          3           3     OK        
+      P6            p6_dias_modalidad      spark          hive         26          26     OK        
+      P6     p6_tramos_dias_oferentes      spark          hive          6           6     OK        
+      P6                  p6_spearman      spark        pandas          7           7     OK        
+      P4              p4_consulta_ruc      spark elasticsearch         15          15     OK        
+      P4     p4_ejemplo_contratos_ruc      spark elasticsearch         55          55     OK        
+      P7             p7_texto_resumen      spark elasticsearch          3           3     OK        
+      P7       p7_texto_top_entidades      spark elasticsearch         30          30     OK        
+      P7          p7_catalogo_resumen      spark elasticsearch          3           3     OK        
+      P7    p7_catalogo_top_entidades      spark elasticsearch         30          30     OK        
+      P1            p1_anio_modalidad      spark        duckdb        416         416     OK        
+      P3            p3_desvio_resumen      spark        duckdb          1           1     OK        
+      P5     p5_concentracion_entidad      spark        duckdb        376         376     OK        
+      P2    p2_unica_oferta_modalidad      spark        polars         43          43     OK        
+      P2 p2_unica_oferta_tipo_entidad      spark        polars         15          15     OK        
+      P2         p2_unica_oferta_anio      spark        polars         17          17     OK        
+      P6            p6_dias_modalidad      spark        polars         26          26     OK        
+      P6     p6_tramos_dias_oferentes      spark        polars          6           6     OK        
+
+29 de 29 comparaciones OK -> resultados\full\verificacion.csv

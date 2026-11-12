@@ -1,0 +1,19 @@
+Elasticsearch 9.5.1 en http://localhost:9200
+C:\Users\betha\OneDrive\Escritorio\Ciencia de datos\analisis y procesamiento de datos masivos\src\05_elasticsearch.py:80: DeprecationWarning: Passing transport options in the API method is deprecated. Use 'Elasticsearch.options()' instead.
+  es.indices.forcemerge(index=indice, max_num_segments=1, request_timeout=1800)
+  dncp_contratos_full: 254,807 documentos en 20 s
+  dncp_items_full: 4,537,908 documentos en 185 s
+  -> resultados\full\elasticsearch\00_carga_indices.csv (2 filas)
+P4: consulta por RUC
+  -> resultados\full\elasticsearch\p4_consulta_ruc.csv (15 filas)
+  listado de 55 contratos del RUC trafigura-pte-ltd: 12 ms
+  -> resultados\full\elasticsearch\p4_ejemplo_contratos_ruc.csv (55 filas)
+P7: búsqueda de texto en ítems adjudicados
+  -> resultados\full\elasticsearch\p7_texto_resumen.csv (3 filas)
+  -> resultados\full\elasticsearch\p7_texto_top_entidades.csv (30 filas)
+  -> resultados\full\elasticsearch\p7_catalogo_resumen.csv (3 filas)
+  -> resultados\full\elasticsearch\p7_catalogo_top_entidades.csv (30 filas)
+
+real	3m33.923s
+user	0m0.061s
+sys	0m0.016s

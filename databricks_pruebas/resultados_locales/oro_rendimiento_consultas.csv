@@ -1,0 +1,24 @@
+﻿consulta,etapa,filas_resultado,tiempo_1_s,tiempo_2_s,tiempo_min_s,resumen_plan
+P1 año x modalidad,consulta,416,23.536,18.278,18.278,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P2 una sola oferta por modalidad,consulta,13,12.252,0.349,0.349,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P2 una sola oferta por tipo_entidad,consulta,15,8.34,0.663,0.663,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P2 una sola oferta por anio,consulta,17,6.955,0.816,0.816,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P3 resumen del desvío,consulta,1,12.161,7.995,7.995,1 lectura(s); 1 shuffle(s); poda de particiones: no
+P3 desvío por categoría,consulta,67,23.597,6.397,6.397,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P4 ranking de proveedores,consulta,50,42.783,107.633,42.783,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P4 contratos del RUC 80001556-8,consulta,316,4.926,13.445,4.926,1 lectura(s); 1 shuffle(s); poda de particiones: no
+P5 concentración por entidad,consulta,376,35.613,7.793,7.793,2 lectura(s); 3 shuffle(s); join: BroadcastHashJoin; ventana; poda de particiones: no
+P5 concentración por categoría,consulta,73,32.23,6.471,6.471,1 lectura(s); 3 shuffle(s); ventana; poda de particiones: no
+P6 días por modalidad,consulta,17,2.5,0.118,0.118,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P6 oferentes por tramo de días,consulta,6,1.567,0.102,0.102,1 lectura(s); 2 shuffle(s); poda de particiones: no
+P6 correlación de Spearman,consulta,7,17.849,0.121,0.121,3 lectura(s); 3 shuffle(s); join: BroadcastHashJoin; ventana; poda de particiones: no
+P7 texto vs catálogo,consulta,6,53.556,0.083,0.083,6 lectura(s); 12 shuffle(s); poda de particiones: no
+P7 entidades que concentran el gasto,consulta,15,14.454,0.101,0.101,1 lectura(s); 3 shuffle(s); ventana; poda de particiones: no
+A · P7 búsqueda de texto,antes,1,19.263,0.767,0.767,1 lectura(s); 1 shuffle(s); poda de particiones: no
+A · P7 búsqueda de texto,después,1,8.531,0.788,0.788,1 lectura(s); 1 shuffle(s); poda de particiones: no
+B · procesos de 2025 por modalidad,antes,21,1.208,0.352,0.31,1 lectura(s); 1 shuffle(s); poda de particiones: no
+B · procesos de 2025 por modalidad,después,21,0.715,0.301,0.301,1 lectura(s); 1 shuffle(s); poda de particiones: no
+C · gasto por tipo de entidad (join),antes,15,37.675,0.152,0.152,2 lectura(s); 3 shuffle(s); join: SortMergeJoin; poda de particiones: no
+C · gasto por tipo de entidad (join),después,15,13.249,5.007,5.007,2 lectura(s); 1 shuffle(s); join: BroadcastHashJoin; poda de particiones: no
+D · contratos de un RUC,antes,1,0.802,0.025,0.025,1 lectura(s); 2 shuffle(s); poda de particiones: no
+D · contratos de un RUC,después,1,0.805,0.042,0.04,1 lectura(s); 2 shuffle(s); poda de particiones: no

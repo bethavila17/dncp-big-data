@@ -1,0 +1,33 @@
+﻿modalidad,llamados_con_oferta,una_sola_oferta,pct_una_oferta
+acuerdo nacional,10,2,20.0
+banco mundial - selección con base en una sola fuente,2,1,50.0
+bid - comparación de precios,18,3,16.67
+bid - concurso de ofertas (co/cp),10,1,10.0
+bid - contratación directa (cd/sd),4,1,25.0
+bid - licitación internacional,28,8,28.57
+bid - licitación pública nacional,5,1,20.0
+bid - selección basada en calificación de consultores,5,5,100.0
+bm - comparación de precios,7,3,42.86
+bm - concurso de ofertas - co,3,2,66.67
+bm - contratación directa - cd,1,0,0.0
+bm - licitación pública internacional - lpi,5,1,20.0
+bm - licitación pública nacional - lpn,1,0,0.0
+bm - selección basada en la calidad,1,1,100.0
+cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,1,0,0.0
+concurso de ofertas,324,95,29.32
+contratación directa,417,140,33.57
+contratación por excepción,34,30,88.24
+cve con difusión previa,107,89,83.18
+especiales subasta a la baja electrónica internacional,2,0,0.0
+lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,1,1,100.0
+licitación pública internacional,110,19,17.27
+licitación pública nacional,2415,672,27.83
+locación de inmuebles,7,5,71.43
+menor cuantía internacional,7,3,42.86
+menor cuantía nacional,6035,2685,44.49
+selección basada en la calidad y el costo,11,4,36.36
+selección basada en las calificaciones de los consultores,4,2,50.0
+selección con base en una sola fuente,1,1,100.0
+selección cuando el presupuesto es fijo,3,0,0.0
+selección sobre la base la comparación de las calificaciones,8,2,25.0
+subasta a la baja electrónica nacional,163,50,30.67

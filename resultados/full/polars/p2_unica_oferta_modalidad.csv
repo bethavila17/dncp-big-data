@@ -1,0 +1,44 @@
+﻿modalidad,llamados_con_oferta,una_sola_oferta,pct_una_oferta
+acuerdo internacional,1,1,100.0
+acuerdo nacional,53,25,47.17
+banco mundial - selección con base en una sola fuente,3,2,66.67
+bid - comparación de precios,33,4,12.12
+bid - concurso de ofertas (co/cp),252,49,19.44
+bid - contratación directa (cd/sd),237,170,71.73
+bid - licitación internacional,128,33,25.78
+bid - licitación pública nacional,47,14,29.79
+bid - locación de inmuebles,2,0,0.0
+bid - selección basada en calificación de consultores,6,6,100.0
+bm - comparación de precios,7,3,42.86
+bm - concurso de ofertas - co,75,18,24.0
+bm - contratación directa - cd,106,29,27.36
+bm - contratación por excepción - ce,16,15,93.75
+bm - licitación pública internacional - lpi,51,19,37.25
+bm - licitación pública nacional - lpn,50,8,16.0
+bm - selección basada en el menor costo,8,2,25.0
+bm - selección basada en la calidad,1,1,100.0
+bm - selección basada en la calidad y el costo,13,7,53.85
+bm - selección basada en las calificaciones de consultores,5,2,40.0
+cd_dncp_bid - contratación directa sistema nacional bid bienes no comunes y obras simples,1,1,100.0
+cd_sbe_dncp_bid - contratación directa por sbe sistema nacional bid para bienes comunes,22,2,9.09
+concurso de ofertas,22769,8641,37.95
+contratación directa,68031,27404,40.28
+contratación por excepción,1997,1472,73.71
+cve con difusión previa,229,180,78.6
+especiales subasta a la baja electrónica internacional,17,5,29.41
+lco_dncp_bid_obras - licitación por concurso de oferta sistema nacional bid obras simples,1,0,0.0
+lco_sbe_dncp_bid - licitación por concurso de oferta por sbe sistema nacional bid bienes comunes,39,10,25.64
+licitación pública internacional,734,141,19.21
+licitación pública nacional,17077,4462,26.13
+locación de inmuebles,1929,1581,81.96
+lpn_sbe_dncp_bid - licitación publica nacional por sbe sistema nacional bid bienes comunes,23,3,13.04
+menor cuantía internacional,15,8,53.33
+menor cuantía nacional,12761,5608,43.95
+selección basada en el menor costo,15,6,40.0
+selección basada en la calidad,14,10,71.43
+selección basada en la calidad y el costo,78,44,56.41
+selección basada en las calificaciones de los consultores,50,31,62.0
+selección con base en una sola fuente,1,1,100.0
+selección cuando el presupuesto es fijo,7,3,42.86
+selección sobre la base la comparación de las calificaciones,96,36,37.5
+subasta a la baja electrónica nacional,297,92,30.98

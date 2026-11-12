@@ -1,0 +1,12 @@
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+procesos: 246,686 filas (95 s)
+adjudicaciones: 275,126 filas (97 s)
+contratos: 254,807 filas (231 s)
+items_adjudicados: 4,537,908 filas (104 s)
+  -> resultados\full\spark\00_tablas_aplanadas.csv (7 filas)
+Total: 605 s
+
+real	10m44.725s
+user	0m0.903s
+sys	0m2.917s

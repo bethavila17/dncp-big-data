@@ -1,0 +1,8 @@
+trabajo 1 (entidad -> tipo): 17 splits, 12 mappers en paralelo, 8,691 pares clave-valor, 4 s
+  caché distribuida: 340 entidades con tipo
+trabajo 2 (P1 y P2): 17 splits, 12 mappers en paralelo, 40,126 pares clave-valor, 4 s
+  -> resultados\2025\mapreduce\p1_anio_modalidad.csv (139 filas)
+  -> resultados\2025\mapreduce\p2_unica_oferta_modalidad.csv (32 filas)
+  -> resultados\2025\mapreduce\p2_unica_oferta_tipo_entidad.csv (15 filas)
+  -> resultados\2025\mapreduce\p2_unica_oferta_anio.csv (13 filas)
+líneas con JSON inválido: 0

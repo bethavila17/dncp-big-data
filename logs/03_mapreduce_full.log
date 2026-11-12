@@ -1,0 +1,13 @@
+trabajo 1 (entidad -> tipo): 134 splits, 12 mappers en paralelo · map 200,058 pares · combiner 30,859 · reduce 374 · 352 s
+  caché distribuida: 374 entidades con tipo
+trabajo 2 (P1 y P2): 134 splits, 12 mappers en paralelo · map 628,577 pares · combiner 5,655 · reduce 491 · 415 s
+  -> resultados\full\mapreduce\00_contadores.csv (2 filas)
+  -> resultados\full\mapreduce\p1_anio_modalidad.csv (416 filas)
+  -> resultados\full\mapreduce\p2_unica_oferta_modalidad.csv (43 filas)
+  -> resultados\full\mapreduce\p2_unica_oferta_tipo_entidad.csv (15 filas)
+  -> resultados\full\mapreduce\p2_unica_oferta_anio.csv (17 filas)
+líneas con JSON inválido: 0
+
+real	12m53.567s
+user	0m0.482s
+sys	0m2.575s
